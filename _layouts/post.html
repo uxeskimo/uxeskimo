@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+  {% include head-post.html %}
+
+<body class="{{page.body-page-class}}">
+
+  {% include svg-defs.html %}
+
+    <div class="page-wrap">
+
+    {% include header.html %}
+
+    <main class="main">
+
+      <section class="main-hero">
+
+      </section>
+
+      <article>
+
+        <div class="wrap intro">
+
+          <h1 class="title">{{page.title}}</h1>
+
+              {{ content }}
+
+        </div>
+
+      </article>
+
+    </main>
+
+    {% include footer.html %}
+
+  </div>
+
+</body>
+  <script src="/assets/js/main-scripts.js"></script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-76926101-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+</html>

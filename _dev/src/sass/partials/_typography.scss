@@ -1,0 +1,23 @@
+html, body {
+  font-size: 23px;
+}
+
+body {
+    font-family: 'brandon-grotesque', helvetica, arial, sans-serif;
+}
+
+a {
+    color: #dc2959;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+}
+
+.title {
+  color: #dc2959;
+  margin-top: 0;
+    @include breakpoint($surf-tide) {
+      margin-top: 25px;
+    }
+}

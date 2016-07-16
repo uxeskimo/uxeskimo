@@ -1,0 +1,99 @@
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import "./bower_components/susy/sass/susy";
+@import "./bower_components/breakpoint-sass/stylesheets/breakpoint";
+@import "partials/variables";
+@import "partials/breakpoints";
+@import "partials/extends";
+@import "partials/typography";
+@import "partials/header";
+@import "partials/navigation";
+@import "partials/heros";
+@import "partials/footer";
+@import "partials/buttons";
+@import "partials/normalize";
+@import "partials/icons";
+@import "partials/home";
+@import "partials/about";
+@import "partials/blog-home";
+@import "partials/blog-post";
+@import "partials/work";
+@import "partials/contact";
+@import "partials/no-js";
+
+body, html {
+  overflow-x: hidden
+}
+
+.page-wrap {
+  position: relative;
+}
+
+.skip-nav {
+    position: absolute;
+    top: -9999px;
+    left: 0;
+    z-index: 999;
+}
+
+.wf-loading {
+	 visibility: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Changing Susy default global settings */
+$susy:(
+  columns: 12, // Tells Susy to use 4 columns
+  container: 1120px, // Tells Susy that the container has a max-width of 1120px
+  //debug: (image: show), // Visally shows grid
+  global-box-sizing: border-box // content-box
+  );
+
+@include border-box-sizing;
+
+.wrap {
+  @include container();
+  //height: 100vh;
+}
+
+.intro {
+  padding: 25px 25px 50px 25px;
+  text-align: center;
+  p {
+    text-align: justify;
+  }
+  h1 {
+    font-size: 30px;
+    margin-top: 0;
+      @include breakpoint($surf-tide) {
+         margin-top: 10px;
+         font-size: 2em;
+      }
+  }
+  p {
+    margin-bottom: 40px;
+  }
+}
+
+::-moz-selection {
+  background: #dc2959;
+  color: white;
+ }
+
+::selection {
+  background: #dc2959;
+   color: white;
+ }
+
+ .client-logo {
+    @include span(4 of 12);
+    margin-right: 0;
+ }
+
+//@include span(3 of 4);
+//@include span(1 of 4 last);
+//body { @include container(80em); }
+//nav { @include span(25%); }

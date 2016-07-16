@@ -1,0 +1,72 @@
+.main-hero {
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 400px;
+  max-height: 400px;
+    @include breakpoint($surf-tide) {
+      min-height: 500px;
+      max-height: 500px;
+    }
+    @include breakpoint($tidal-wave) {
+      min-height: 800px;
+      max-height: 800px;
+    }
+}
+
+.home {
+  .main-hero {
+      background-image: url("http://s3-eu-west-1.amazonaws.com/eskimo/lee-murray.jpg");
+  }
+}
+
+.about {
+  .main-hero {
+      background-image: url("http://s3-eu-west-1.amazonaws.com/eskimo/user-research.jpg");
+  }
+}
+
+.work {
+  .main-hero {
+      background-image: url("http://s3-eu-west-1.amazonaws.com/eskimo/ux-work.jpg");
+      background-position: 56% 0;
+        @include breakpoint($surf-tide) {
+            background-position: 0 0;
+        }
+  }
+}
+
+.angel-square {
+  .main-hero {
+      background-image: url("http://s3-eu-west-1.amazonaws.com/eskimo/angel.jpg");
+  }
+}
+
+.jekyll {
+  .main-hero {
+      background-image: url("http://s3-eu-west-1.amazonaws.com/eskimo/jekyll-hyde.jpg");
+      background-position: 45% 0;
+        @include breakpoint($surf-tide) {
+            background-position: 0 0;
+        }
+  }
+}
+
+.running {
+  .main-hero {
+      background-image: url("http://s3-eu-west-1.amazonaws.com/eskimo/trimpell-run.jpg");
+      background-position: 45% 0;
+        @include breakpoint($surf-tide) {
+            background-position: 0 0;
+        }
+  }
+}
+
+.contact {
+  .main-hero {
+      background-image: url("http://s3-eu-west-1.amazonaws.com/eskimo/eskimo-old-trafford.jpg");
+      background-position: 85% 0;
+        @include breakpoint($surf-tide) {
+            background-position: 0 36%;
+        }
+  }
+}
