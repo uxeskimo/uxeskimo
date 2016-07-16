@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lee Murray</title>
+    <description>I&#39;m Lee Murray, Interaction Designer @CoopDigital, I make good websites and tweet @uxeskimo.</description>
+    <link>http://uxeskimo.co.uk/</link>
+    <atom:link href="http://uxeskimo.co.uk/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 16 Jul 2016 11:43:15 +0100</pubDate>
+    <lastBuildDate>Sat, 16 Jul 2016 11:43:15 +0100</lastBuildDate>
+    <generator>Jekyll v3.1.3</generator>
+    
+      <item>
+        <title>Keep pushing, keep pushing...</title>
+        <description>&lt;p&gt;Keep pushing, keep pushing, it’s the last mile, I’ve ran well up to now and I’m gaining momentum, just another minute and I can rest.
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;I have a fascination with running, it’s the simplest form of showing me you get what you put into something, the harder you work, the more runs you do, the better/faster more experience you get.  This I believe rings true in all walks of life and I find it rewarding to see gradual improvements over time from running more frequently.&lt;/p&gt;
+
+&lt;p&gt;I also find running helps me with my work, when I’m pushing myself on the road, getting out of my comfort zone by putting some hard honest miles in, it encourages me to push myself in other areas of my life but in the same vein.&lt;/p&gt;
+
+&lt;p&gt;It’s not just all hard work though, it can be fun, I sometimes go to my local running club (&lt;a href=&quot;http://www.dragonsrunningsale.co.uk/&quot; target=&quot;_blank&quot;&gt;Sale Dragons&lt;/a&gt;) to run out with them, it’s a fantastic club with all levels of runners.  You’d be surprised how having a chat with someone over a 6 mile run can completely take your mind off how tough it is, I recommend trying out your local running club, your running will improve and you’ll meet like minded people.&lt;/p&gt;
+
+&lt;p&gt;Feeling fitter and healthier from running are other obvious benefits but it makes you feel better about yourself, I’ve never once regretted doing a run.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://s3-eu-west-1.amazonaws.com/eskimo/strava.png&quot; alt=&quot;Lee&#39;s Strava&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It also helps with setting goals, last year I decided that I wanted to run the &lt;a href=&quot;http://www.greatermanchestermarathon.com/&quot; target=&quot;_blank&quot;&gt;Manchester Marathon&lt;/a&gt; in under 3hours 45mins, I stuck to a training plan and achieved my goal (3hours 41min), this again was done with honest hard graft.&lt;/p&gt;
+
+&lt;p&gt;And finally getting out for a run is free, so no excuses, what are you waiting for? Keep moving forward.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;(&lt;a href=&quot;https://www.strava.com/athletes/258622&quot; target=&quot;_blank&quot;&gt;Add me on Strava&lt;/a&gt;, it’s a great way to monitor your running progress and encourage others.)&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 08 May 2016 00:00:00 +0100</pubDate>
+        <link>http://uxeskimo.co.uk/running/2016/05/08/keep-pushing.html</link>
+        <guid isPermaLink="true">http://uxeskimo.co.uk/running/2016/05/08/keep-pushing.html</guid>
+        
+        
+        <category>Running</category>
+        
+      </item>
+    
+      <item>
+        <title>Jekyll and, no not that Jekyll...</title>
+        <description>&lt;p&gt;One of the great things about the web is that it gives anyone a voice to talk about their thing and share it across the world, something I&#39;ve not done much of recently.&lt;/p&gt;
+&lt;!--more--&gt;
+
+&lt;p&gt;I continuously try to improve myself and blogs are a great way to pick up new stuff, so with this in mind a few weeks ago I decided to get a website up and running to enable me to do this and share some of my knowledge.&lt;/p&gt;
+
+&lt;p&gt;Designing your own website is notoriously difficult for designers but it shouldn’t be, you can do anything you want so my approach was to quickly get something live and learn from users how to improve it.&lt;/p&gt;
+
+&lt;p&gt;I’d sketched down some ideas for the layout of the site and what info I wanted on there, I discussed this with some fellow designers, stuff like “what would you expect to see” - it’s always useful to get feedback, especially at this stage.&lt;/p&gt;
+
+&lt;p&gt;I then moved onto to designing the home page in the browser.  I was using &lt;a href=&quot;http://gulpjs.com/&quot; target=&quot;_blank&quot;&gt;Gulp&lt;/a&gt; to speed up my workflow which included &lt;a href=&quot;https://www.npmjs.com/package/gulp-sass&quot; target=&quot;_blank&quot;&gt;SASS&lt;/a&gt; and &lt;a href=&quot;https://www.browsersync.io/&quot; target=&quot;_blank&quot;&gt;Browser Sync&lt;/a&gt;, this allowed me to quickly prototype a responsive design in literally a day.&lt;/p&gt;
+
+&lt;p&gt;Working with some talented designers at the Co-op has it’s advantages, one of them being to utilize their critical eye, which I did with the prototype.  Feedback was good, the main issue being raised was my choice of shirt in the image on the home page!&lt;/p&gt;
+
+&lt;p&gt;With more confidence in the design I then went on to build the other pages.  What I’ve not mentioned is my time is precious, I work full time and have a young family so this was done in the space of a week, working in the evening after the girls had gone to bed!&lt;/p&gt;
+
+&lt;p&gt;I got the website in a state where I thought there was benefit for me to have it live.  It wasn’t (isn’t) the finished product but it’s a chunk of something I can build from, so after some browser/device testing I pushed it live.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://pages.github.com/&quot; target=&quot;_blank&quot;&gt;Github Pages&lt;/a&gt; is where I chose to host my site, it’s free which is great but I like being able to push files from the command line to the repository, it’s quick and easy and seems a good fit for my future iterations.&lt;/p&gt;
+
+&lt;p&gt;OK, so now I’ve got something on the web; I only had one blog, so I had used the same layout I’d built for the other pages, but, I plan to do more blogs in the future so I need to change it - this is where &lt;strong&gt;Jekyll&lt;/strong&gt; comes in handy…&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://s3-eu-west-1.amazonaws.com/eskimo/jekyll.jpg&quot; alt=&quot;Jekyll&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://jekyllrb.com/&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt; is a static site generator and will build your pages from dynamic components like templates and partials but also it utilizes Liquid and markdown which bring lots of benefits when organizing/building your site.&lt;/p&gt;
+
+&lt;p&gt;The partials allowed me to create a generic header and footer which I could use with my default layout template, this then allows you to build other pages quickly using the Liquid includes.&lt;/p&gt;
+
+&lt;p&gt;Other benefits with the Liquid language are the tags and filters, these allowed me to pull in the first image from my blog into the blog list and other useful info.&lt;/p&gt;
+
+&lt;p&gt;As I delve deeper into Jekyll, I will share my experiences and write some more in depth articles.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 03 May 2016 00:00:00 +0100</pubDate>
+        <link>http://uxeskimo.co.uk/co-op/2016/05/03/jekyll-and-hyde.html</link>
+        <guid isPermaLink="true">http://uxeskimo.co.uk/co-op/2016/05/03/jekyll-and-hyde.html</guid>
+        
+        
+        <category>Co-op</category>
+        
+      </item>
+    
+      <item>
+        <title>Head in the clouds...</title>
+        <description>&lt;p&gt;Have you ever heard someone say “you’ve got your head in the clouds”?  Well that was me – literally – yesterday.  I work as a Interaction designer/developer at the Co-operative in a growing Digital team based on the 11th floor of 1 Angel Square and while the rest of Manchester struggled with the gloom of the fog, we were almost illuminated by it. &lt;!--more--&gt; I’ve only been with the Co-op for a month or so and am still amazed by my workplace – this unique and innovative building feels like the right place to be as we continue our digital transformation.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://s3-eu-west-1.amazonaws.com/eskimo/angel-square.jpg&quot; alt=&quot;Angel Square&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To say it is exciting times at the moment may be understating it and to not just work for the Co-op but be a part of it as a member adds an extra dimension.  I’m not just working for the company; I’m working for the members – you, me and everyone that has joined this historic establishment on the way.&lt;/p&gt;
+
+&lt;h3&gt;A fantastic employer&lt;/h3&gt;
+
+&lt;p&gt;In Manchester the Co-op has always had a fantastic reputation as an employer and as one of its newest employees I can vouch for it – the people are welcoming, loyal – working hard and always wanting to be the best.  My workplace environment, the equipment, (for starters on my first day a brand spanking new Mac Book Pro was waiting for me), tools to help me ‘do a better job’ never mind the ‘little things’ that make coming to work that little bit easier, it’s clear for me to see that the Co-op puts it’s staff at the heart of who it is and what it wants to be and who wouldn’t want to be part of that.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://s3-eu-west-1.amazonaws.com/eskimo/nux.jpg&quot; alt=&quot;NUX Event&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The history that surrounds the Co-op means that I’m proud to say that I work for them and even prouder and more excited to be part of its future.&lt;/p&gt;
+
+&lt;h3&gt;Oh and a little bit about me…&lt;/h3&gt;
+
+&lt;p&gt;I have a passion for designing and developing websites.  I’ve done this professionally for the last 15 years, cutting my teeth working for fast paced design agencies after starting off self employed to build my portfolio.  Along the way I’ve designed some big sites, the Citizens Advice and Advice Guide websites for example; I transformed the checkouts and subsequent conversion rates for N Brown’s group of e-commerce fashion brands by turning a 10 step multi page process into a 1 page responsive checkout.  Almost without realising it I transformed from a website designer to a designer that codes in the browser and right now, here at the Co-op, it feels like this could be my greatest challenge but I know we’ll achieve all we set out to do together.&lt;/p&gt;
+
+&lt;h3&gt;Anything could happen&lt;/h3&gt;
+
+&lt;p&gt;So – back to having my head in the clouds – it feels like anything could happen and any idea could be the one that really changes, improves and moves the Co-op to its next phase – I can’t wait to be part of it – what about you?&lt;/p&gt;
+
+&lt;p&gt;I’ll be writing regular blogs about UI design/development and my Co-op journey, find me on twitter &lt;a href=&quot;https://twitter.com/uxeskimo&quot;&gt;@uxeskimo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Work hard, have fun, make a difference...  Join us at Angel Square...&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 03 Nov 2015 00:00:00 +0000</pubDate>
+        <link>http://uxeskimo.co.uk/co-op/2015/11/03/head-in-the-clouds.html</link>
+        <guid isPermaLink="true">http://uxeskimo.co.uk/co-op/2015/11/03/head-in-the-clouds.html</guid>
+        
+        
+        <category>Co-op</category>
+        
+      </item>
+    
+  </channel>
+</rss>
