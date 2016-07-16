@@ -8,4 +8,4 @@ permalink: /
 
 <p>Hey, my name is <strong>Lee Murray</strong> and I'm an Interaction Designer.</p>
 
-<a class="primary-btn" href="about.html">More about me</a>
+<p class="button-wrap"><a class="primary-btn" href="about.html">More about me</a></p>

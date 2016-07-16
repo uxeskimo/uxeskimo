@@ -1,12 +1,16 @@
+.button-wrap {
+  padding-top: 15px;
+}
 .primary-btn {
+  display: inline-block;
   background-color: #dc2959;
   border: 0;
   color: white;
   padding: 15px 60px;
   border-radius: 3px;
   text-decoration: none;
-  &:hover {
-    background-color: #111;
-    text-decoration: none;
-  }
+    &:hover {
+      background-color: #111;
+      text-decoration: none;
+    }
 }

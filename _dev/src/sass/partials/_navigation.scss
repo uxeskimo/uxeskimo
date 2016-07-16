@@ -26,7 +26,8 @@
             text-decoration: none;
             padding: 15px 45px 15px 0;
             text-transform: uppercase;
-            font-weight: bold;
+            font-weight: 500;
+            font-style: normal;
 
               @include breakpoint($surf-tide) {
                 display: inline-block;
