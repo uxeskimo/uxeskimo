@@ -1,6 +1,9 @@
 
 .contact {
    .intro {
+     p {
+       margin-bottom: 25px;
+     }
     @include span(4 of susy-get(columns));
       float: none;
        @include breakpoint($surf-tide) {
