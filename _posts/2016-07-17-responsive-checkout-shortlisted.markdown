@@ -37,7 +37,7 @@ Going back to the checkout, once we felt we were clear on what problems we were 
 
 We sketched out pages and then got something straight into the browser.  We tested them as we went along on all formats - mobile, tablet and desktop.  
 
-We went though a few iterations like this getting feedback from real users helping us make the html prototypes better with each version.
+We went through a few iterations like this getting feedback from real users helping us make the html prototypes better with each version.
 
 As the users scrutinised every aspect of the checkout design iteration, by the time we were ready to launch we were actually really confident that we were improving what we had; we just didn't realise how much we had improved it!
 
