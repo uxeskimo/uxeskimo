@@ -43,7 +43,7 @@ As the users scrutinised every aspect of the checkout design iteration, by the t
 
 So it's nice and I feel proud that I contributed to the checkout that has been shortlisted for an award - <strong>but I'm even prouder that users found the checkout so much easier to use</strong>.
 
-<a href="https://techecommawards.retail-week.com/shortlist-2016" target="_blank">The shortlist for digital customer experience of the year 2016</a>
+<strong><a href="https://techecommawards.retail-week.com/shortlist-2016" target="_blank">The shortlist for digital customer experience of the year 2016:</a></strong>
 
 <ul>
 <li>Argos with 24/7 Customer Inc, Predictive Sales Chat</li>
