@@ -3,6 +3,9 @@
    .intro {
      p {
        margin-bottom: 25px;
+         &:first-of-type {
+           font-weight: 400;
+         }
      }
     @include span(4 of susy-get(columns));
       float: none;
@@ -35,7 +38,7 @@
   padding-left: 0;
   text-align: left;
    h2 {
-     font-size: 2em;
+     font-size: 1.7em;
      margin-bottom: 15px;
    }
     a {
@@ -49,4 +52,7 @@
       display: block;
       margin-top: 25px;
     }
+}
+.post-meta {
+  font-weight: 400;
 }
