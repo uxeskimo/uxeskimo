@@ -2,6 +2,9 @@
   .intro {
     p {
       margin-bottom: 25px;
+        &:first-of-type {
+          font-weight: 400;
+        }
     }
    @include span(4 of susy-get(columns));
      float: none;
