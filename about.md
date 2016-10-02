@@ -4,9 +4,7 @@ title: About | Lee Murray | Interaction Designer
 body-page-class: about
 ---
 
-<h2 class="title">About</h2>
-
-<h1>I'm a family man...</h1>
+<h1 class="title">I'm a family man...</h1>
 
 <p>First off I'm a proud husband and father who loves to design interfaces, build them <strong>in the browser</strong> and test them, all based on <strong>user needs</strong>.</p>
 
