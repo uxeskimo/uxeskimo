@@ -26,6 +26,13 @@
   .home {
     .intro {
         padding-bottom: 30px;
+          h1 {
+              font-size: 30px;
+               @include breakpoint($surf-tide) {
+                 margin-top: 10px;
+                 font-size: 2em;
+               }
+          }
       p {
         text-align: center;
         margin-bottom: 20px;
