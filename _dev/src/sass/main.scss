@@ -78,16 +78,6 @@ $susy:(
   }
 }
 
-::-moz-selection {
-  background: #dc2959;
-  color: white;
- }
-
-::selection {
-  background: #dc2959;
-   color: white;
- }
-
  .client-logo {
     @include span(4 of 12);
     margin-right: 0;
