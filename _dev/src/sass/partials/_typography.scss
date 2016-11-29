@@ -17,7 +17,6 @@ a {
 }
 
 .title {
-  color: #dc2959;
   margin-top: 0;
     @include breakpoint($surf-tide) {
       margin-top: 25px;
