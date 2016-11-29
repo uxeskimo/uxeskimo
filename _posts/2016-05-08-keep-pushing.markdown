@@ -2,7 +2,7 @@
 layout: post
 body-page-class: running blog
 excerpt_separator: <!--more-->
-title:  "Keep pushing, keep pushing..."
+title:  "Keep pushing, keep pushing"
 date:   2016-05-08
 categories: Running
 ---

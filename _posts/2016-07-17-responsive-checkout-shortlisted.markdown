@@ -2,7 +2,7 @@
 layout: post
 body-page-class: checkout blog
 excerpt_separator: <!--more-->
-title:  "Responsive checkout shortlisted..."
+title:  "Responsive checkout shortlisted"
 date:   2016-07-17
 categories: Responsive
 ---

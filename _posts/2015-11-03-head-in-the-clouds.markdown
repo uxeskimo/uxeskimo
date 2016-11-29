@@ -2,7 +2,7 @@
 layout: post
 body-page-class: angel-square blog
 excerpt_separator: <!--more-->
-title:  "Head in the clouds..."
+title:  "Head in the clouds"
 date:   2015-11-03
 categories: Co-op
 ---
