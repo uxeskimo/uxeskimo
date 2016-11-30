@@ -6,8 +6,9 @@ title:  "Head in the clouds"
 date:   2015-11-03
 categories: Co-op
 ---
-
-<p>Have you ever heard someone say “you’ve got your head in the clouds”?  Well that was me – literally – yesterday.  I work as a Interaction designer/developer at the Co-operative in a growing Digital team based on the 11th floor of 1 Angel Square and while the rest of Manchester struggled with the gloom of the fog, we were almost illuminated by it. <!--more--> I’ve only been with the Co-op for a month or so and am still amazed by my workplace – this unique and innovative building feels like the right place to be as we continue our digital transformation.</p>
+<p>Have you ever heard someone say “you’ve got your head in the clouds”?  Well that was me – literally – yesterday.  I work as a Interaction designer/developer at the Co-operative in a growing Digital team based on the 11th floor of 1 Angel Square and while the rest of Manchester struggled with the gloom of the fog, we were almost illuminated by it.</p>
+<!--more--> 
+<p>I’ve only been with the Co-op for a month or so and am still amazed by my workplace – this unique and innovative building feels like the right place to be as we continue our digital transformation.</p>
 
 <img src="http://s3-eu-west-1.amazonaws.com/eskimo/angel-square.jpg" alt="Angel Square" />
 
