@@ -14,4 +14,6 @@ body-page-class: about
 
 <p>I'm a quiet, reliable and determined guy who works hard and produces the goods when it matters.</p>
 
+<img src="http://s3-eu-west-1.amazonaws.com/eskimo/old-trafford-tournament.jpg" alt="The theatre of dreams" >
+
 <p>I enjoy working collaboratively as part of a team, sharing ideas and constantly trying to improve designs for the best <strong>user experience</strong>.</p>
