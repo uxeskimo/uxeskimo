@@ -10,7 +10,8 @@ body-page-class: contact
 
 <p>If I can't take your project on I might be able to help in pointing you in the right direction so feel free to get in touch.</p>
 
-<p><strong>Email:</strong> <a href="mailto:uxeskimo@gmail.com">uxeskimo@gmail.com</a> &nbsp;&nbsp;&nbsp;<strong>Mobile:</strong> 07545351167</p>
+<p><strong>Email: </strong><a href="mailto:uxeskimo@gmail.com">uxeskimo@gmail.com</a></p>
+<p><strong>Phone: </strong><a href="tel:07545351167">07545351167</a></p>
 
 <img src="http://s3-eu-west-1.amazonaws.com/eskimo/lee-old-trafford.jpg" alt="Lee at Old Trafford" />
 
