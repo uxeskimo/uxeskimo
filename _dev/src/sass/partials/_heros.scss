@@ -9,6 +9,10 @@
 .home {
   .main-hero {
       background-image: url("/../assets/img/whiteboard-hero.jpg");
+          background-position: 45% 0;
+          @include breakpoint($surf-tide) {
+            background-position: 0 0;
+        }
   }
 }
 
