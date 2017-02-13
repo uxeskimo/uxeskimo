@@ -15,4 +15,4 @@ body-page-class: contact
 
 <img src="http://s3-eu-west-1.amazonaws.com/eskimo/lee-old-trafford.jpg" alt="Lee at Old Trafford" />
 
-<p>Apologies about the Old Trafford pics, as an avid Man United fan it had to be done!</p>
+<p>Who put the ball in the Germans net? Who put the ball in the Germans net? Who put the ball in the Germans net? Ole Gunnar Solskjaer!</p>

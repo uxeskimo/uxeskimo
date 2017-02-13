@@ -1,12 +1,16 @@
 
 .work {
 
+  .work-wrap {
+    margin-top: 75px;
+  }
+
   .main {
       .work-box {
         @include breakpoint($surf-tide) {
           float: left;
-          margin-bottom: 0;
-            @include span(4 of 12);
+          margin-bottom: 50px;
+            @include span(6 of 12);
             margin-right: gutter(12);
           }
           &:last-child {
