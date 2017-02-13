@@ -47,7 +47,7 @@ img {
 /* Changing Susy default global settings */
 $susy:(
   columns: 12, // Tells Susy to use 4 columns
-  container: 1120px, // Tells Susy that the container has a max-width of 1120px
+  container: 1280px, // Tells Susy that the container has a max-width of 1280px
   //debug: (image: show), // Visally shows grid
   global-box-sizing: border-box // content-box
   );
@@ -57,11 +57,32 @@ $susy:(
 .wrap {
   @include container();
   //height: 100vh;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.half-content {
+  @include span(12 of 12);
+   @include breakpoint($surf-tide) {
+    @include span(6 of 12);
+    margin-right: 0;
+  }
+}
+
+.two-third-content {
+  @include span(12 of 12);
+   @include breakpoint($surf-tide) {
+    @include span(9 of 12);
+    margin-right: 0;
+  }
+}
+
+.full-content {
+  @include span(12 of 12);
 }
 
 .intro {
-  padding: 25px 25px 50px 25px;
-  text-align: center;
+  padding-top: 25px;
   p {
     text-align: left;
   }
@@ -73,15 +94,8 @@ $susy:(
          font-size: 2em;
       }
   }
-  p {
-    margin-bottom: 40px;
-  }
+ 
 }
-
- .client-logo {
-    @include span(4 of 12);
-    margin-right: 0;
- }
 
 //@include span(3 of 4);
 //@include span(1 of 4 last);

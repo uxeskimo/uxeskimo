@@ -6,7 +6,7 @@ $surf-tide: 690px;
 // set min-width/max-width if both values are numbers
 $standard-tide: 1000px;
 // set min-width/max-width if both values are numbers
-$high-tide: 1300px;
+$higher-tide: 1300px;
 // set min-width/max-width if both values are numbers
 $tidal-wave: 1800px;
 // set min-width/max-width if both values are numbers
@@ -15,3 +15,12 @@ $ex-presidents: 600px 800px;
 $surfboard-width: max-width 1000px;
 // string tests together within parentheses, assume each item is a feature value pair
 $surfboard-height: (min-height 1000px) (orientation portrait);
+
+
+.max-width-720 {
+	max-width: 720px; 
+}
+
+.max-width-820 {
+	max-width: 820px; 
+}

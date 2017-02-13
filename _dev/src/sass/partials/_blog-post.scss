@@ -20,21 +20,8 @@
            font-weight: 400;
          }
      }
-    @include span(4 of susy-get(columns));
-      float: none;
-       @include breakpoint($surf-tide) {
-          @include span(3 of susy-get(columns));
-          float: none;
-          margin: 0 auto 40px auto;
-       }
-       @include breakpoint($standard-tide) {
-          @include span(2.5 of susy-get(columns));
-          float: none;
-          margin: 0 auto 40px auto;
-       }
          img  {
          display: block;
-         margin: 0 auto;
        }
 
        h3 {

@@ -1,42 +1,8 @@
 
 .work {
-    .eskimo-nostalgia {
-      position: absolute;
-      background-image: url("http://s3-eu-west-1.amazonaws.com/eskimo/lee-murray-uxeskimo.jpg");
-      background-size: 85px 85px;
-      border-radius: 50%;
-      bottom: -41px;
-      left: 50%;
-      margin-left: -42.5px;
-      width: 85px;
-      height: 85px;
-    }
-   .intro {
-    @include span(4 of susy-get(columns));
-      float: none;
-       @include breakpoint($surf-tide) {
-          @include span(3 of susy-get(columns));
-          float: none;
-          margin: 0 auto 40px auto;
-       }
-       @include breakpoint($standard-tide) {
-          @include span(2.5 of susy-get(columns));
-          float: none;
-          margin: 0 auto 40px auto;
-       }
-  }
+
   .main {
-    padding-bottom: 60px;
-         .wrap {
-      max-width: 1325px;
-      padding: 25px 25px 0 25px;
-      clear: both;
-      @include breakpoint($surf-tide) {
-        padding: 25px;
-      }
       .work-box {
-        @include span(12 of 12);
-        margin: 0 auto 25px auto;
         @include breakpoint($surf-tide) {
           float: left;
           margin-bottom: 0;
@@ -57,4 +23,3 @@
       }
 
  }
-}

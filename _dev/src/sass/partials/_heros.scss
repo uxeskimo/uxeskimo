@@ -2,33 +2,25 @@
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 400px;
-  max-height: 400px;
-    @include breakpoint($surf-tide) {
-      min-height: 500px;
-      max-height: 500px;
-    }
-    @include breakpoint($tidal-wave) {
-      min-height: 800px;
-      max-height: 800px;
-    }
+  min-height: 409px;
+  max-height: 409px;
 }
 
 .home {
   .main-hero {
-      background-image: url("http://s3-eu-west-1.amazonaws.com/eskimo/lee-murray.jpg");
+      background-image: url("/../assets/img/whiteboard-hero.jpg");
   }
 }
 
 .about {
   .main-hero {
-      background-image: url("http://s3-eu-west-1.amazonaws.com/eskimo/flow-post-its.jpg");
+      background-image: url("/../assets/img/user-journey.jpg");
   }
 }
 
 .work {
   .main-hero {
-      background-image: url("http://s3-eu-west-1.amazonaws.com/eskimo/ux-work.jpg");
+      background-image: url("http://s3-eu-west-1.amazonaws.com/eskimo/angel.jpg");
       background-position: 56% 0;
         @include breakpoint($surf-tide) {
             background-position: 0 0;
