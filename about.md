@@ -17,3 +17,15 @@ body-page-class: about
 <img src="http://s3-eu-west-1.amazonaws.com/eskimo/old-trafford-tournament.jpg" alt="The theatre of dreams" >
 
 <p>I enjoy working collaboratively as part of a team, sharing ideas and constantly trying to improve designs for the best <strong>user experience</strong>.</p>
+
+<h2>Recently read books</h2>
+
+<ul class="highlight">
+<li>Designing for performance</li>
+<li>Javascript for web designers</li>
+<li>Pratical SVG</li>
+<li>Atomic design</li>
+<li>User story mapping</li>
+<li>Sprint: How to solve big problems and test new ideas in just five days</li>
+<li>How to make sense of any mess</li>
+</ul>

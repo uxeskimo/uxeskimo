@@ -43,6 +43,18 @@ img {
   max-width: 100%;
   height: auto;
 }
+.highlight {
+  border-left: 7px solid #119DA4;
+  padding-left: 25px;
+  list-style: none;
+  font-weight: 400;
+  li {
+      padding-bottom: 13px;
+      &:last-of-type {
+        padding-bottom: 0;
+      }
+  }
+}
 
 /* Changing Susy default global settings */
 $susy:(

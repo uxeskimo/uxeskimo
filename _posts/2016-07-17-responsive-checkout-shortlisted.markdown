@@ -45,7 +45,7 @@ So it's nice and I feel proud that I contributed to the checkout that has been s
 
 <strong><a href="https://techecommawards.retail-week.com/shortlist-2016" target="_blank">The shortlist for digital customer experience of the year 2016:</a></strong>
 
-<ul>
+<ul class="highlight">
 <li>Argos with 24/7 Customer Inc, Predictive Sales Chat</li>
 <li>Asda, Automated Collection Point</li>
 <li>Cycle Republic with Yocuda, Cycle Republic Reward Card</li>
