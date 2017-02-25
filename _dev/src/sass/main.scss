@@ -81,6 +81,14 @@ $susy:(
   }
 }
 
+.one-third-content {
+  @include span(12 of 12);
+   @include breakpoint($surf-tide) {
+    @include span(3 of 12);
+    margin-right: 0;
+  }
+}
+
 .two-third-content {
   @include span(12 of 12);
    @include breakpoint($surf-tide) {

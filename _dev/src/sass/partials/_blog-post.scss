@@ -1,5 +1,29 @@
-
+.back-link  {
+  display: block;
+  span {
+   display: inline-block;
+   vertical-align: top;
+   padding-left: 10px;
+  }
+}
 .blog {
+  .author {
+    margin-bottom: 45px;
+  }
+   .author-lee {
+      display: block;
+      background-image: url("http://s3-eu-west-1.amazonaws.com/eskimo/lee-murray-uxeskimo.jpg");
+      background-size: 65px 65px;
+      border-radius: 50%;
+      width: 65px;
+      height: 65px;
+    }
+    .author-name {
+      display: block;
+      margin-top: -50px;
+      margin-left: 80px;
+      font-weight: 400;
+    }
    .intro {
       padding-top: 60px;
      p {

@@ -26,6 +26,12 @@
     }
 }
 
+.icon-back {
+  fill: #119DA4;
+  height: 30px;
+  width: 27px;
+}
+
 // Client Icons
 .icon {
   max-width: 100%;
@@ -75,35 +81,4 @@
   @include breakpoint($surf-tide) {
     max-width: 155px;
   }
-}
-
-// Footer Icons
-.icon-eskimo {
-  max-width: 75px;
-  max-height: 75px;
-  padding: 3px;
-}
-
-.icon-phone {
-  fill: #fff;
-  width: 32px;
-  max-height: 40px;
-}
-
-.icon-email {
-  fill: #fff;
-  max-height: 50px;
-  width: 40px;
-}
-
-.icon-facebook {
-  fill: #fff;
-  max-height: 46px;
-  width: 26px;
-}
-
-.icon-twitter {
-  fill: #fff;
-  max-height: 38px;
-  width: 60px;
 }
