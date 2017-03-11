@@ -16,4 +16,4 @@ body-page-class: contact
 
 <img src="http://s3-eu-west-1.amazonaws.com/eskimo/lee-old-trafford.jpg" alt="Lee at Old Trafford" />
 
-<p>Who put the ball in the Germans net? Who put the ball in the Germans net? Who put the ball in the Germans net? Ole Gunnar Solskjaer!</p>
+<p>How well we communicate is determined not by how well we say things, but how well we are understood.</p>

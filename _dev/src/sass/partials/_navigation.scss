@@ -21,6 +21,9 @@
         @include breakpoint($surf-tide) {
           display: inline-block;
         }
+          &:first-of-type a {
+            padding-left:0;
+          }
         &:last-of-type a {
          padding-right: 0;
        }

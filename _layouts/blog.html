@@ -19,13 +19,13 @@
 
           <div class="max-width-720">
 
-            <h3>Blog</h3>
+            <h3>Thoughts</h3>
 
           <ul class="post-list">
             {% for post in site.posts %}
               <li>
                 <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></h2>
-                <span class="post-meta">By Lee Murray, Published {{ post.date | date: "%b %-d, %Y" }}</span>
+                <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
                 {% assign images = post.content | split:"<img " %}
                   {% for image in images %}
                   {% if image contains 'src=' %}
