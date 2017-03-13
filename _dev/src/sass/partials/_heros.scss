@@ -68,6 +68,16 @@
   }
 }
 
+.diversity {
+  .main-hero {
+      background-image: url("https://s3-eu-west-1.amazonaws.com/eskimo/diversity-in-the-walking-dead.jpg");
+      background-position: 45% 0;
+        @include breakpoint($surf-tide) {
+            background-position: 0 0;
+        }
+  }
+}
+
 .contact {
   .main-hero {
       background-image: url("http://s3-eu-west-1.amazonaws.com/eskimo/eskimo-old-trafford.jpg");
