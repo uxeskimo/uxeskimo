@@ -35,6 +35,18 @@ body, html {
     z-index: 999;
 }
 
+.skip-nav a:focus {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    padding: 8px;
+    background: #111;
+    color: #fff;
+    outline: 0;
+    -webkit-transition: top .1s ease-in, background .5s linear;
+    transition: top .1s ease-in, background .5s linear;
+}
+
 .wf-loading {
 	 visibility: hidden;
 }
