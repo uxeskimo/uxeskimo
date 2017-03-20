@@ -46,6 +46,11 @@ body, html {
     -webkit-transition: top .1s ease-in, background .5s linear;
     transition: top .1s ease-in, background .5s linear;
 }
+a:active, a:focus {
+    -webkit-transition: none;
+    transition: none;
+    outline: 5px solid #119DA4;
+}
 
 .wf-loading {
 	 visibility: hidden;
