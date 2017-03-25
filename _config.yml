@@ -23,3 +23,10 @@ exclude: ["_dev",
             "bower_components",
             "bower.json",
             "package.json"]
+
+# Name of repository, for use with Staticman
+repository: "uxeskimo/uxeskimo"
+
+# Staticman comments (see staticman.yml for configuration).
+staticman:
+  branch: "master"

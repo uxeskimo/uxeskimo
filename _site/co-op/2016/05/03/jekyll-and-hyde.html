@@ -141,16 +141,15 @@
 
           <div class="two-third-content intro">
 
-
             <a href="/blog.html" class="back-link"> <svg xmlns="http://www.w3.org/2000/svg" class="icon-back"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-back"></use></svg><span>Thoughts archive</span></a>
 
-          <div class="max-width-720">
+                <div class="max-width-720">
 
-          <h4 class="author"><span class="author-lee"></span><span class="author-name">Lee Murray, 03 May 2016<span></h4>
+                  <h4 class="author"><span class="author-lee"></span><span class="author-name">Lee Murray, 03 May 2016<span></h4>
 
-          <h1 class="title">Jekyll and, no not that Jekyll.</h1>
+                  <h1 class="title">Jekyll and, no not that Jekyll.</h1>
 
-              <p>One of the great things about the web is that it gives anyone a voice to talk about their thing and share it across the world, something I've not done much of recently.</p>
+                      <p>One of the great things about the web is that it gives anyone a voice to talk about their thing and share it across the world, something I've not done much of recently.</p>
 <!--more-->
 
 <p>I continuously try to improve myself and blogs are a great way to pick up new stuff, so with this in mind a few weeks ago I decided to get a website up and running to enable me to do this and share some of my knowledge.</p>
@@ -182,10 +181,38 @@
 <p>As I delve deeper into Jekyll, I will share my experiences and write some more in depth articles.</p>
 
 
-          </div>
+                      <!-- Comment form -->
+                        <h3>Post a comment:</h3>
+                        <form method="POST" action="https://api.staticman.net/v2/entry/uxeskimo/uxeskimo/master/comments">
+                          <input name="options[redirect]" type="hidden" value="http://uxeskimo.co.uk">
+                          <input name="options[slug]" type="hidden" value="jekyll-and-hyde">
+                          <div>
+                            <legend>Name</legend>
+                            <input name="fields[name]" type="text">
+                          </div>
+                          <div>
+                            <legend>E-mail (optional)</legend>
+                            <input name="fields[email]" type="email">
+                          </div>
+                          <div>
+                            <legend>Message (<a href="https://kramdown.gettalong.org/syntax.html">kramdown</a> markup allowed)</legend>
+                            <textarea style="width:100%" name="fields[message]" rows="12"></textarea>
+                          </div>
+                          
+                          <div>
+                            <legend><em>Comments will appear after moderation.</em></legend>
+                            <button type="submit">Submit Comment</button>
+                          </div>
+                        </form>
+
+                        
+
+                 
+                  </div>
+                                                                  
+                </div>
 
           </div>
-
 
         </div>
 
