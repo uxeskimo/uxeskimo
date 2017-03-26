@@ -73,6 +73,12 @@ img {
   display: none;
 }
 
+.alert {
+  border-left: 8px solid #f1d990;
+  background-color: #fcf7e9;
+  padding: 20px;
+}
+
 /* Changing Susy default global settings */
 $susy:(
   columns: 12, // Tells Susy to use 4 columns
