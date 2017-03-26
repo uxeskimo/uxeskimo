@@ -33,7 +33,7 @@
 
           <div class="two-third-content intro">
 
-            <a href="/blog.html" class="back-link"> <svg xmlns="http://www.w3.org/2000/svg" class="icon-back"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-back"></use></svg><span>Thoughts archive</span></a>
+            <a href="/blog.html" class="back-link"> <svg xmlns="http://www.w3.org/2000/svg" class="icon-back"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-back"></use></svg><span>Thoughts</span></a>
 
                 <div class="max-width-720">
 
@@ -47,7 +47,7 @@
                         <h3 class="h2">Leave a comment:</h3>
       
                         <form method="POST" action="https://api.staticman.net/v2/entry/{{ site.repository }}/{{ site.staticman.branch }}/comments" id="demo-form" data-parsley-validate="">
-                          <input name="options[redirect]" type="hidden" value="http://uxeskimo.co.uk">
+                          <input name="options[redirect]" type="hidden" value="http://uxeskimo.co.uk/comments-sent.html">
                           <input name="options[slug]" type="hidden" value="{{ page.slug }}">
                           <div class="form-row">
                             <label for="name">Name</label>
