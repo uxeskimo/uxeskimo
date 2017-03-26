@@ -69,6 +69,10 @@ img {
   }
 }
 
+.hidden {
+  display: none;
+}
+
 /* Changing Susy default global settings */
 $susy:(
   columns: 12, // Tells Susy to use 4 columns

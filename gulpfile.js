@@ -38,7 +38,7 @@ gulp.task('compile-sass', function() {
 
 // Minify JS
 gulp.task('scripts', function() {
-  return gulp.src(['bower_components/jquery/dist/jquery.min.js', 'assets/js/main.js'])
+  return gulp.src(['bower_components/jquery/dist/jquery.min.js', 'assets/js/main.js','assets/js/parsley.min.js'])
     .pipe(concat('main-scripts.js'))
     .pipe(gulp.dest('assets/js'));
 });

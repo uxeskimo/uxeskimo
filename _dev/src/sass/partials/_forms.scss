@@ -32,3 +32,24 @@ button[type=submit] {
   padding: 14px 40px;
   font-weight: 400
  }
+
+ .bs-callout-warning {
+  border: 1px solid #d0091c;
+  padding: 20px;
+ }
+
+.parsley-errors-list {
+  padding-left: 0;
+}
+
+.parsley-error {
+  border: 2px solid #d0091c;
+    &:focus {
+        border: 2px solid #d0091c;
+    }
+}
+
+ .parsley-required, .parsley-minlength {
+  list-style: none;
+  color: #d0091c;
+ }
