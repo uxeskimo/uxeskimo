@@ -11,9 +11,6 @@ body-page-class: contact
 
 <p>If I can't take your project on I might be able to help in pointing you in the right direction so feel free to get in touch.</p>
 
-<p><a href="mailto:uxeskimo@gmail.com">uxeskimo@gmail.com</a></p>
-<p><a href="tel:07545351167">07545351167</a></p>
-
 <img src="http://s3-eu-west-1.amazonaws.com/eskimo/lee-old-trafford.jpg" alt="Lee at Old Trafford" />
 
 <p>How well we communicate is determined not by how well we say things, but how well we are understood.</p>

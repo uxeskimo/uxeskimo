@@ -8,7 +8,10 @@
 }
 .blog {
   .author {
-    margin-bottom: 45px;
+    font-size: 16px;
+      @include breakpoint($surf-tide) {
+          margin-bottom: 0;
+      }
   }
    .author-lee {
       display: block;
@@ -17,12 +20,6 @@
       border-radius: 50%;
       width: 65px;
       height: 65px;
-    }
-    .author-name {
-      display: block;
-      margin-top: -50px;
-      margin-left: 80px;
-      font-weight: 400;
     }
    .intro {
       padding-top: 60px;
