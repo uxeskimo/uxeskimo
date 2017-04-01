@@ -78,6 +78,10 @@ img {
   background-color: #fcf7e9;
   padding: 20px;
 }
+.border-title {
+  display: inline-block;
+  border-bottom: 7px solid #119da4;
+}
 
 /* Changing Susy default global settings */
 $susy:(

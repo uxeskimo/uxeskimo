@@ -3,20 +3,53 @@
    .intro {
 }
 
+.post-meta {
+  display: block;
+  margin-top: 21px;
+}
+
+.post-list a:hover h2:before {
+  width: 100%;
+}
+
 .post-list {
   list-style: none;
   padding-left: 0;
   text-align: left;
    h2 {
+    display: inline-block;
+     position: relative;
      font-size: 2em;
      margin-bottom: 15px;
+     &:before {
+      position: absolute;
+      content: '';
+      background-color: #119DA4;
+      width: 76px;
+      height: 7px;
+      bottom: -16px;
+      -webkit-transition: all .3s ease-in-out;
+      transition: all .3s ease-in-out;
+          @include breakpoint($surf-tide) {
+            width: 97px;
+          }
+     }
    }
     a {
+ 
       text-decoration: none;
       color: #111;
-      &:hover {
-        text-decoration: underline;
-      }
+          -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+         &:hover {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+        align-items: stretch;
+   }
     }
     img {
       margin-top: 25px;

@@ -4,7 +4,7 @@ title: Contact | Lee Murray | Interaction Designer
 body-page-class: contact
 ---
 
-<h3>Contact</h3>
+<h3 class="border-title">Contact</h3>
 <h1 class="title">I'm available.</h1>
 
 <p>I'm in full time employment helping bring the Co-op into the digital era but am currently available to take on small projects.</p>
