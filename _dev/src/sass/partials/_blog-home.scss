@@ -16,6 +16,10 @@
   list-style: none;
   padding-left: 0;
   text-align: left;
+  li {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 21px;
+  }
    h2 {
     display: inline-block;
      position: relative;
@@ -36,11 +40,10 @@
      }
    }
     a {
- 
       text-decoration: none;
       color: #111;
-          -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
+        -webkit-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out;
          &:hover {
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
@@ -49,7 +52,7 @@
         -webkit-box-align: stretch;
         -ms-flex-align: stretch;
         align-items: stretch;
-   }
+      }
     }
     img {
       margin-top: 25px;

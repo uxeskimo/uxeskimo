@@ -4,7 +4,7 @@ body-page-class: jekyll blog
 excerpt_separator: <!--more-->
 title:  "Jekyll and, no not that Jekyll"
 date:   2016-05-03
-categories: Co-op
+categories: Jekyll
 ---
 
 <p>One of the great things about the web is that it gives anyone a voice to talk about their thing and share it across the world, something I've not done much of recently.</p>
