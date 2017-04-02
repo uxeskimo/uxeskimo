@@ -98,6 +98,10 @@ p, h1, h2, h3, h4, a {
      margin-left:-4px;
    }
 }
+.border-text {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 35px;
+}
 
 /* Changing Susy default global settings */
 $susy:(
