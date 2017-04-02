@@ -46,3 +46,9 @@
       }
     }
   }
+
+  .clients .lrg-margin {
+       @include breakpoint($surf-tide) {
+          margin-bottom: 0;
+      }
+     }
