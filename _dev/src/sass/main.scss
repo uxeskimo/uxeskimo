@@ -17,7 +17,6 @@
 @import "partials/about";
 @import "partials/blog-home";
 @import "partials/blog-post";
-@import "partials/work";
 @import "partials/contact";
 @import "partials/no-js";
 
@@ -106,7 +105,7 @@ p, h1, h2, h3, h4, a {
 /* Changing Susy default global settings */
 $susy:(
   columns: 12, // Tells Susy to use 4 columns
-  container: 1280px, // Tells Susy that the container has a max-width of 1280px
+  container: 1200px, // Tells Susy that the container has a max-width of 1280px
   //debug: (image: show), // Visally shows grid
   global-box-sizing: border-box // content-box
   );

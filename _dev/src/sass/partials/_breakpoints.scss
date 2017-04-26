@@ -21,6 +21,17 @@ $surfboard-height: (min-height 1000px) (orientation portrait);
 	max-width: 720px; 
 }
 
+.about .max-width-720, .contact .max-width-720, .blog-home .max-width-720, .blog .max-width-720 {
+	position: relative;
+	margin-top: -145px;
+	background-color: #fff;
+	padding-top: 30px;
+	      @include breakpoint($surf-tide) {
+	      	padding-right: 50px;
+	      }
+
+}
+
 .max-width-820 {
 	max-width: 820px; 
 }

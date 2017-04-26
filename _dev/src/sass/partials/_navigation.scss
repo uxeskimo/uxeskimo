@@ -10,9 +10,6 @@
       width: auto;
       margin-left: 0;
     }
-     @include breakpoint($higher-tide) {
-      margin-right: 50px;
-    }
     ul {
       margin: 0;
       padding-left: 25px;

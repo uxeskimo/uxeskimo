@@ -1,6 +1,7 @@
 
 .blog-home {
    .intro {
+    padding-top: 60px;
 }
 
 .post-meta {
@@ -13,22 +14,25 @@
 }
 
 .post-list {
+  margin-top: 0;
   list-style: none;
   padding-left: 0;
   text-align: left;
   li {
     border-bottom: 1px solid #eee;
     padding-bottom: 21px;
+    margin-bottom: 20px;
   }
    h2 {
     display: inline-block;
      position: relative;
      font-size: 2em;
      margin-bottom: 15px;
+     margin-top: 10px;
      &:before {
       position: absolute;
       content: '';
-      background-color: #119DA4;
+      background-color: #111111;
       width: 76px;
       height: 7px;
       bottom: -16px;

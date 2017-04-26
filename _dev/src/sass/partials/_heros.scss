@@ -2,8 +2,8 @@
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 409px;
-  max-height: 409px;
+  min-height: 450px;
+  max-height: 450px;
 }
 
 .home {
@@ -11,7 +11,9 @@
       background-image: url("/../assets/img/whiteboard-hero.jpg");
           background-position: 45% 0;
           @include breakpoint($surf-tide) {
-            background-position: 0 0;
+            background-position: 80% 0;
+              min-height: 409px;
+              max-height: 409px;
         }
   }
 }
@@ -19,6 +21,16 @@
 .about {
   .main-hero {
       background-image: url("/../assets/img/user-journey.jpg");
+  }
+}
+
+.blog-home {
+  .main-hero {
+      background-image: url("/../assets/img/thoughts-typing.jpg");
+       background-position: 40% 0;
+       @include breakpoint($surf-tide) {
+           background-position: 0 0;
+          }
   }
 }
 
