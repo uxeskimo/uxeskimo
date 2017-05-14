@@ -1,10 +1,10 @@
 ---
 layout: home
-title: Lee Murray | Interaction Designer
+title: Lee Murray | Manchester Designer
 permalink: /
 ---
 
-<h1>Lee Murray, Interaction Designer</h1>
+<h1>Lee Murray, Designer</h1>
 
 <p class="border-text">Designer, htmler, csser, occasional javascript flirter and always design problem thinker.</p>
 
