@@ -4,11 +4,7 @@
     p {
       margin-bottom: 25px;
         &:first-of-type {
-            font-size: 26px;
            font-weight: 400;
-                 @include breakpoint($surf-tide) {
-                  font-size: 31px;
-                 }
         }
     }
  }

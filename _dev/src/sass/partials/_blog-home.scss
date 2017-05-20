@@ -6,7 +6,8 @@
 
 .post-meta {
   display: block;
-  margin-top: 25px;
+  margin-top: 15px;
+  font-size: 20px;
 }
 
 .post-list a:hover h2:before {
@@ -22,26 +23,6 @@
     border-bottom: 1px solid #eee;
     padding-bottom: 21px;
     margin-bottom: 20px;
-  }
-   h2 {
-    display: inline-block;
-     position: relative;
-     font-size: 2em;
-     margin-bottom: 15px;
-     margin-top: 9px;
-     &:before {
-      position: absolute;
-      content: '';
-      background-color: #111111;
-      width: 76px;
-      height: 7px;
-      bottom: -5px;
-      -webkit-transition: all .3s ease-in-out;
-      transition: all .3s ease-in-out;
-          @include breakpoint($surf-tide) {
-            width: 97px;
-          }
-     }
    }
     a {
       text-decoration: none;

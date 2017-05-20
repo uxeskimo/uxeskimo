@@ -4,8 +4,7 @@ title: About | Lee Murray | Interaction Designer
 body-page-class: about
 ---
 
-<h3 class="border-title">About</h3>
-<h1 class="title">Trying to make things simple.</h1>
+<h1 class="title">Trying to make things simple</h1>
 
 <p>My thing is designing digital products armed with the skillsets required of the modern designer.</p>
 

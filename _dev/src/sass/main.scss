@@ -154,9 +154,9 @@ $susy:(
   }
   h1 {
     font-size: 38px;
-    margin-top: 0;
+    margin-top: 15px;
       @include breakpoint($surf-tide) {
-         margin-top: 10px;
+         margin-top: 32px;
          font-size: 2em;
       }
   }
