@@ -8,13 +8,13 @@ body-page-class: about
 
 <p>My thing is designing digital products armed with the skillsets required of the modern designer.</p>
 
-<p>I've been doing this a while now and along my journey have helped The Citizens Advice Bureau, N Brown Group PLC, Sigma and many other business.</p>
+<p>I've been doing this a while now and along my journey have helped The Citizens Advice Bureau, N Brown Group PLC, Sigma and many other businesses.</p>
 
-<p>My other passions include sport, I enjoy running, football, riding my bike and watching films.</p>
+<p>My other passions include sport, I enjoy running, football, riding my bike and putting my feet up to watch a good film or read a book.</p>
 
 <p>I've recently qualified as an amateur boxing coach and am passionate about the part that boxing and mentoring can play in young peoples lives.</p>
 
-<p>I'm a quiet, reliable and determined guy who works hard and produces the goods when it matters.</p>
+<p>To quickly try to describe myself I'd say I'm an open, honest person who has a good work ethic and someone that is always curious about design. I think its important that everyone’s voice in a room is heard and try to encourage environments where this happens.</p>
 
 <img src="http://s3-eu-west-1.amazonaws.com/eskimo/old-trafford-tournament.jpg" alt="The theatre of dreams" >
 

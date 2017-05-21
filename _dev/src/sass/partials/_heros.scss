@@ -89,6 +89,15 @@
         }
   }
 }
+.teaching {
+  .main-hero {
+      background-image: url("https://s3-eu-west-1.amazonaws.com/eskimo/sale-waterside.jpg");
+      background-position: 45% 0;
+        @include breakpoint($surf-tide) {
+            background-position: 0 0;
+        }
+  }
+}
 
 .contact {
   .main-hero {
