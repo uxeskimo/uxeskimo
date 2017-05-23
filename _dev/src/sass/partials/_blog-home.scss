@@ -1,5 +1,10 @@
 
 .blog-home {
+   @include breakpoint($surf-tide) {
+    .primary-nav .thoughts a {
+      border-bottom: 2px solid #119DA4;
+    }
+  }
    .intro {
     padding-top: 60px;
 }

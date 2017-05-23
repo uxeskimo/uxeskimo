@@ -13,9 +13,13 @@ Some of my work is being acknowledged at the minute, I was the designer on a res
 It's nice when people say good things about your work, but I take more interest in monitoring the performance of the design with real users.
 The checkout for N Brown Group has been a resounding success since it's implementation in late 2014.  
 
+## Increases in conversion
+
 Increases in checkout conversion for desktops by 18%, tablets by 14%, and smartphones by 9% tell a story of a checkout being made easier for the user to complete their purchase.
 
 Looking back there were indicators as to why it worked so well; from day 1 we ticked a lot of the boxes in how we planned and approached the project.
+
+## Observed users
 
 First off we looked at the existing checkout, we got real users to look at it, observed them, spoke with them to help define the problems.
 
@@ -25,6 +29,8 @@ It was a little bit daunting at times as we were working to an inflexible deadli
 
 There were other issues as well in terms of the constraints and limitations of the current backend system that the checkout would be intertwined with, unfortunately we couldn't create a new checkout from scratch.
 
+## Diverse team
+
 We had a small diverse team of talented passionate individuals who all had the same end goal in mind - make it work.
 
 Diversity is a great thing to have on teams; people from different backgrounds bring different things to the table.
@@ -33,11 +39,15 @@ I didn't take the usual root to a degree - Grammar school, A-levels University a
 
 I returned to education in my early 20's when I could afford it, and as websites really began to take off, knowing what I wanted to do.
 
+## Prototypes
+
 Going back to the checkout, once we felt we were clear on what problems we were trying to solve, designs and prototypes were created.
 
 We sketched out pages and then got something straight into the browser.  We tested them as we went along on all formats - mobile, tablet and desktop.  
 
 We went through a few iterations like this getting feedback from real users helping us make the html prototypes better with each version.
+
+## Ready to launch
 
 As the users scrutinised every aspect of the checkout design iteration, by the time we were ready to launch we were actually really confident that we were improving what we had; we just didn't realise how much we had improved it!
 

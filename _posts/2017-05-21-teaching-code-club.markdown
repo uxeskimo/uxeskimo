@@ -48,6 +48,6 @@ Balancing family and work life has always been a challenge but it shouldn't be. 
 ## Get involved
 Why not get involved?  So far for me this has been rewarding, it's forcing me out of my comfort zone and, in doing so, helping me improve myself by helping others. 
 
-Have a look on the code club websites for <a href="https://www.codeclub.org.uk/find-a-club">clubs near to you</a>.
+Have a look on the code club website for <a href="https://www.codeclub.org.uk/find-a-club">clubs near to you</a>.
 
 Adios for now, Lee.

@@ -22,7 +22,7 @@
             padding-left:0;
           }
         &:last-of-type a {
-         padding-right: 0;
+         margin-right: 0;
        }
           a {
             display: block;
@@ -34,7 +34,9 @@
 
               @include breakpoint($surf-tide) {
                 display: inline-block;
-                padding: 7.5px 25px;
+                padding: 7.5px 0;
+                margin-right: 25px;
+                margin-left: 25px;
               }
           }
       }

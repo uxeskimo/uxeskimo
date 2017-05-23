@@ -10,16 +10,16 @@
   .author {
     font-size: 16px;
     padding-bottom: 14px;
+    margin-top: 5px;
       @include breakpoint($surf-tide) {
-        width: 70%;
-        font-size: 23px;
+        font-size: 17px;
       }
   }
    .intro {
       padding-top: 60px;
       h1 {
         @include breakpoint($surf-tide) {
-           margin-top: 30px;
+           margin-top: 38px;
            font-size: 2em;
            margin-bottom: 0;
         }
@@ -32,6 +32,12 @@
      }
        img  {
          display: block;
+       }
+       h2 {
+          margin-top: 44px;
+            @include breakpoint($surf-tide) {
+                margin-top: 64px;
+            }
        }
 
        h3 {

@@ -12,9 +12,13 @@ I'd heard a lot of noise about 'The Walking Dead' but it didn't grab me when it 
 
 Fast forward and I'm near the end of season 6, I've really enjoyed being taken to a post apocalyptic world where only the strong survive.  What I've really been impressed with though is the diversity of the cast, it discriminates no one and it has set a standard other TV shows should follow.
 
+## Minorities
+
 We have lead women, ethnic minorities, all types of relationships, which don't follow common stereotypes, they all stand on their own merits and I'm sure the diverse group have been a big factor in the shows box office success.
 
 The team have worked together to help each other survive this ruthless new word they have found themselves living in and I can't help thinking putting this non-fictional TV show aside how the best teams I have worked in have been diverse  - different people from different backgrounds with different personalities, strengths and weaknesses.
+
+## Diversity
 
 Research backs diversity in teams but from my own experiences at the simplest level, it can help a group look at things from a different perspective.   
 
@@ -23,6 +27,8 @@ Research backs diversity in teams but from my own experiences at the simplest le
 </ul>	
 
 If businesses are looking for talent, people come to their talents in different ways.  Not everyone has had the privilege of a good education, so investing in people, training them to be an asset to the business, giving people from deprived areas a lifeline - a chance - you could find that in doing so the business is enriched by all those life experiences.
+
+## Women in tech
 
 My employer The Co-op Digital has taken a defiant stance for women in tech, refusing to speak at events or be part of panel discussions of two or more people unless there is <a href="https://digitalblog.coop.co.uk/2016/07/26/gender-diversity-at-conferences-events/">at least one woman speaking or part of the panel.</a>
 
