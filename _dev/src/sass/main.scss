@@ -21,7 +21,9 @@
 @import "partials/no-js";
 
 body, html {
-  overflow-x: hidden
+  @include breakpoint($surf-tide) {
+    overflow-x: hidden;
+  }
 }
 
 .page-wrap {
@@ -70,6 +72,10 @@ img {
 
 .hidden {
   display: none;
+}
+
+.overflow {
+  overflow: hidden;
 }
 
 .alert {
@@ -160,7 +166,7 @@ $susy:(
          font-size: 2em;
       }
   }
- 
+
 }
 
 //@include span(3 of 4);
