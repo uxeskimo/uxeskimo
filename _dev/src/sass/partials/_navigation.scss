@@ -1,10 +1,12 @@
 .primary-nav {
+  display: none;
   position: absolute;
   z-index: 100;
   width: 100%;
   margin-left: 100%;
   font-size: 16px;
     @include breakpoint($surf-tide) {
+      display: block;
       position: relative;
       float: right;
       width: auto;
