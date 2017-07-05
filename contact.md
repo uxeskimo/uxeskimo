@@ -12,4 +12,4 @@ body-page-class: contact
 
 <img src="http://s3-eu-west-1.amazonaws.com/eskimo/lee-old-trafford.jpg" alt="Lee at Old Trafford" />
 
-<p>How well we communicate is determined not by how well we say things, but how well we are understood.</p>
+<p>Send me an email if you have a query to uxeskimo@gmail.com</p>

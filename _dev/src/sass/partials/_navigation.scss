@@ -1,17 +1,11 @@
 .primary-nav {
-  display: none;
-  position: absolute;
-  z-index: 100;
-  width: 100%;
-  margin-left: 100%;
-  font-size: 16px;
-    @include breakpoint($surf-tide) {
+      font-size: 16px;
       display: block;
       position: relative;
       float: right;
       width: auto;
       margin-left: 0;
-    }
+
     ul {
       margin: 0;
       padding-left: 25px;
@@ -25,6 +19,8 @@
           }
         &:last-of-type a {
          margin-right: 0;
+         padding-right: 0;
+         padding-top: 0;
        }
           a {
             display: block;
@@ -57,82 +53,3 @@
     }
   }
 }
-
-.mobile-menu-toggle {
-  float: right;
-  display: inline-flex;
-   @include breakpoint($surf-tide) {
-    display: none;
-  }
-  .menu-open {
-    display: inline-block;
-  }
-  .icon-close-menu {
-    display: none;
-  }
-}
-
-  .mobile-menu-toggle.is--active {
-    .icon-burger-menu {
-      display: none;
-    }
-    .icon-close-menu {
-      display: inline-block;
-    }
-  }
-
-  .primary-nav.is--open {
-    margin-left: -25px;
-    margin-top: 55px;
-    height: 100vh;
-    transition: all, 0.25s, ease-in-out;
-    @include breakpoint($surf-tide) {
-      height: auto;
-      margin-top: 0;
-   }
-  }
-
-  .off-canvas {
-    display: none;
-  }
-  .off-canvas.is--open {
-    display: block;
-    position: absolute;
-    top:0px;
-    background-color: #000000;
-    height: 100vh;
-    width: 100%;
-    font-size: 43px;
-    font-weight: 500;
-    transition: all, 0.25s, ease-in-out;
-    z-index: 99;
-    @include breakpoint($surf-tide) {
-      display: none;
-      position: relative;
-      height: auto;
-      margin-top: 0;
-      padding-top: 0;
-      background-color: transparent;
-   }
-   .mobile-nav {
-     margin-top: 130px;
-     ul {
-       list-style: none;
-     li {
-       padding: 15px 0;
-       a {
-         text-decoration: none;
-       }
-     }
-   }
-   }
-  }
-
-  .home .mobile-nav .home, .about .mobile-nav .about, .blog-home .mobile-nav .thoughts, .contact .mobile-nav .contact {
-    color: #fff;
-  }
-
-  .mobile-menu-toggle.is--active .icon-close-menu {
-    z-index: 999;
-    display: inline-block;
-  }

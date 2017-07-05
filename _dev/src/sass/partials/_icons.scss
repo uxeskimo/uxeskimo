@@ -1,29 +1,10 @@
 // Header Icons
 .icon-eskimo-logo {
      height: 30px;
-     width: 153px;
+     width: 65px;
     @include breakpoint($surf-tide) {
       height: 37px;
-      width: 188px;
-    }
-}
-
-.icon-burger-menu {
-  height: 30px;
-  width: 34px;
-    @include breakpoint($surf-tide) {
-      height: 37px;
-      width: 42px;
-    }
-}
-
-.icon-close-menu {
-  fill: #fff;
-  height: 30px;
-  width: 30px;
-    @include breakpoint($surf-tide) {
-      height: 37px;
-      width: 37px;
+      width: 70px;
     }
 }
 

@@ -18,12 +18,6 @@
   }
 }
 
-.about {
-  .main-hero {
-      background-image: url("/../assets/img/user-journey.jpg");
-  }
-}
-
 .blog-home {
   .main-hero {
       background-image: url("/../assets/img/thoughts-typing.jpg");
@@ -31,16 +25,6 @@
        @include breakpoint($surf-tide) {
            background-position: 0 0;
           }
-  }
-}
-
-.work {
-  .main-hero {
-      background-image: url("http://s3-eu-west-1.amazonaws.com/eskimo/angel.jpg");
-      background-position: 56% 0;
-        @include breakpoint($surf-tide) {
-            background-position: 0 0;
-        }
   }
 }
 
@@ -95,16 +79,6 @@
       background-position: 45% 0;
         @include breakpoint($surf-tide) {
             background-position: 0 0;
-        }
-  }
-}
-
-.contact {
-  .main-hero {
-      background-image: url("http://s3-eu-west-1.amazonaws.com/eskimo/eskimo-old-trafford.jpg");
-      background-position: 85% 0;
-        @include breakpoint($surf-tide) {
-            background-position: 0 36%;
         }
   }
 }
