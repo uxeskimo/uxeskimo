@@ -158,9 +158,12 @@ Blog post
     font-family: $proxi;
     font-weight: 700;
     line-height: 1.8;
-    font-size: 22px;
+    font-size: 18px;
     margin: 52px 0;
     border-left: 7px solid #21d67f;
+      @include media(medium) {
+        font-size: 22px;
+      }
      li {
        list-style: none;
        padding-left: 0;
