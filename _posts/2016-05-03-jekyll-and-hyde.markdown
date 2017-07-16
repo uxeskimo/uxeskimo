@@ -1,6 +1,6 @@
 ---
 layout: post
-body-page-class: jekyll blog
+body-page-class: red jekyll
 excerpt_separator: <!--more-->
 title:  "Jekyll and, no not that Jekyll"
 date:   2016-05-03

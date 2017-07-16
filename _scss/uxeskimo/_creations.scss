@@ -1,0 +1,24 @@
+/*===============================================
+About
+===============================================*/
+
+.creations .main {
+  margin-top: 30px;
+  margin-bottom: 130px;
+    h1, h2 {
+      font-size: 33px;
+      font-weight: $bold;
+      margin-bottom: 10px;
+          @include media(medium) {
+              font-size: 42px;
+          }
+    }
+
+    p {
+      line-height: 1.8;
+      font-size: 18px;
+      @include media(medium) {
+        font-size: 20px;
+      }
+    }
+}

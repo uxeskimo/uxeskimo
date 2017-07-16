@@ -1,0 +1,228 @@
+/*===============================================
+Blog post
+===============================================*/
+
+.yellow .impact {
+  background: #ffff00;
+  color: $black;
+}
+
+.yellow .skew:before {
+   background: #ffff00;
+}
+
+.green .impact {
+  background: #339933;
+  color:$white;
+}
+
+.green .skew:before {
+   background: #339933;
+}
+
+.green .primary-nav ul li a {
+  color:$white;
+}
+
+.green .mobile-menu-toggle .menu-open {
+   fill: $white;
+}
+
+.red .impact {
+  background-color: #e91c23;
+  color: $white;
+}
+
+.red .skew:before {
+   background: #e91c23;
+}
+
+.red .primary-nav ul li a {
+  color: $white;
+}
+
+.red .mobile-menu-toggle .menu-open {
+   fill: $white;
+}
+
+.purple .impact {
+  background: #8e3581;
+  color: $white;
+}
+
+.purple .skew:before {
+    background: #8e3581;
+}
+
+.purple .primary-nav ul li a {
+  color:$white;
+}
+
+.purple .mobile-menu-toggle .menu-open {
+   fill: $white;
+}
+
+.blue .impact {
+  background: #2099cb;
+  color:$white;
+}
+
+.blue .skew:before {
+   background: #2099cb;
+}
+
+.blue .primary-nav ul li a {
+  color:$white;
+}
+
+.blue .mobile-menu-toggle .menu-open {
+   fill: $white;
+}
+
+.pink .impact {
+  background: #ea215a;
+  color:$white;
+}
+
+.pink .skew:before {
+   background: #ea215a;
+}
+
+.pink .primary-nav ul li a {
+   color:$white;
+}
+
+.pink .mobile-menu-toggle .menu-open {
+   fill: $white;
+}
+
+.intro-post {
+  height: 203px;
+      @include media(large) {
+          height: 424px;
+      }
+}
+
+.author {
+  padding-left: 8px;
+}
+
+.skew {
+  overflow: hidden;
+  z-index: 100;
+}
+.skew, .skew:before {
+    position: absolute;
+    height: 6.25rem;
+    width: 100%;
+}
+.skew:before {
+  content: "";
+  display: block;
+  -webkit-transform: skew(0deg,0deg);
+  -ms-transform: skew(0deg,0deg);
+  transform: skew(0deg,0deg);
+  transition: all 1s;
+  top: -3.125rem;
+  -webkit-transform: skew(0deg,-3deg);
+  -ms-transform: skew(0deg,-3deg);
+  transform: skew(0deg,-3deg);
+  }
+
+.blog-hero img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  width: 100%;
+}
+
+.blog-post  {
+  margin-bottom: 100px;
+  h2 {
+    font-weight: $bold;
+    margin-top: 100px;
+    font-size: 32px;
+    text-transform: uppercase;
+  }
+  p {
+    line-height: 1.8;
+    font-size: 18px;
+    @include media(medium) {
+      font-size: 20px;
+    }
+    &:first-of-type {
+      font-weight: $headline;
+    }
+  }
+  .highlight {
+    font-family: $proxi;
+    font-weight: 700;
+    line-height: 1.8;
+    font-size: 22px;
+    margin: 52px 0;
+    border-left: 7px solid #21d67f;
+     li {
+       list-style: none;
+       padding-left: 0;
+     }
+  }
+  a {
+    color: #6238bd;
+    text-decoration: none;
+    border-bottom: 3px solid #21d67f;
+  }
+}
+
+.blog-hero {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 241px;
+  max-height: 241px;
+  @include media(large) {
+    min-height: 409px;
+    max-height: 409px;
+  }
+}
+
+.code-club {
+  .blog-hero {
+      background-image: url("https://s3-eu-west-1.amazonaws.com/eskimo/sale-waterside.jpg");
+      background-position: 80% 0;
+  }
+}
+
+.diversity {
+  .blog-hero {
+      background-image: url("https://s3-eu-west-1.amazonaws.com/eskimo/diversity-in-the-walking-dead.jpg");
+      background-position: 80% 0;
+  }
+}
+
+.checkout {
+  .blog-hero {
+      background-image: url("https://s3-eu-west-1.amazonaws.com/eskimo/checkout-shortlist.jpg");
+      background-position: 80% 0;
+  }
+}
+
+.running {
+  .blog-hero {
+      background-image: url("http://s3-eu-west-1.amazonaws.com/eskimo/trimpell-run.jpg");
+      background-position: 80% 0;
+  }
+}
+
+.jekyll {
+  .blog-hero {
+      background-image: url("http://s3-eu-west-1.amazonaws.com/eskimo/jekyll-hyde.jpg");
+      background-position: 80% 0;
+   }
+}
+
+.angel-square  {
+  .blog-hero {
+      background-image: url("https://s3-eu-west-1.amazonaws.com/eskimo/whiteboard-hero.jpg");
+      background-position: 80% 0;
+   }
+}

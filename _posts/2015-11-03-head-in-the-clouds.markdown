@@ -1,13 +1,13 @@
 ---
 layout: post
-body-page-class: angel-square blog
+body-page-class: blue angel-square
 excerpt_separator: <!--more-->
 title:  "Head in the clouds"
 date:   2015-11-03
 categories: Co-op
 ---
-Have you ever heard someone say “you’ve got your head in the clouds”?  Well that was me – literally – yesterday. 
-<!--more--> 
+Have you ever heard someone say “you’ve got your head in the clouds”?  Well that was me – literally – yesterday.
+<!--more-->
 
 I work as a Interaction designer/developer at the Co-operative in a growing Digital team based on the 11th floor of 1 Angel Square and while the rest of Manchester struggled with the gloom of the fog, we were almost illuminated by it.
 
@@ -19,7 +19,7 @@ To say it is exciting times at the moment may be understating it and to not just
 
 ## A fantastic employer
 
-In Manchester the Co-op has always had a fantastic reputation as an employer and as one of its newest employees I can vouch for it – the people are welcoming, loyal – working hard and always wanting to be the best. 
+In Manchester the Co-op has always had a fantastic reputation as an employer and as one of its newest employees I can vouch for it – the people are welcoming, loyal – working hard and always wanting to be the best.
 
 My workplace environment, the equipment, (for starters on my first day a brand spanking new Mac Book Pro was waiting for me), tools to help me ‘do a better job’ never mind the ‘little things’ that make coming to work that little bit easier, it’s clear for me to see that the Co-op puts it’s staff at the heart of who it is and what it wants to be and who wouldn’t want to be part of that.
 
@@ -29,9 +29,9 @@ The history that surrounds the Co-op means that I’m proud to say that I work f
 
 ## Oh and a little bit about me…
 
-I have a passion for designing and developing websites.  I’ve done this professionally for the last 15 years, cutting my teeth working for fast paced design agencies after starting off self employed to build my portfolio. 
+I have a passion for designing and developing websites.  I’ve done this professionally for the last 15 years, cutting my teeth working for fast paced design agencies after starting off self employed to build my portfolio.
 
-Along the way I’ve designed some big sites, the Citizens Advice and Advice Guide websites for example; I transformed the checkouts and subsequent conversion rates for N Brown’s group of e-commerce fashion brands by turning a 10 step multi page process into a 1 page responsive checkout. 
+Along the way I’ve designed some big sites, the Citizens Advice and Advice Guide websites for example; I transformed the checkouts and subsequent conversion rates for N Brown’s group of e-commerce fashion brands by turning a 10 step multi page process into a 1 page responsive checkout.
 
 Almost without realising it I transformed from a website designer to a designer that codes in the browser and right now, here at the Co-op, it feels like this could be my greatest challenge but I know we’ll achieve all we set out to do together.
 

@@ -1,0 +1,53 @@
+/*===============================================
+About
+===============================================*/
+
+.impact-img {
+  position: relative;
+  background-image: url("https://s3-eu-west-1.amazonaws.com/eskimo/whiteboard-hero.jpg");
+  background-position: -61px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 243px;
+  max-height: 243px;
+  @include media(medium) {
+    background-position: 0 0;
+    min-height: 355px;
+    max-height: 355px;
+  }
+  @include media(large) {
+    min-height: 475px;
+    max-height: 475px;
+  }
+}
+
+.about .main {
+  margin-top: 60px;
+    margin-bottom: 130px;
+    @include media(medium) {
+      margin-top: 75px;
+    }
+    h1, h2 {
+      font-size: 33px;
+      font-weight: $bold;
+      margin-bottom: 10px;
+          @include media(medium) {
+              font-size: 42px;
+          }
+    }
+    h2 {
+      margin-top: 115px;
+    }
+
+    p {
+      line-height: 1.8;
+      font-size: 18px;
+      @include media(medium) {
+        font-size: 20px;
+      }
+    }
+}
+
+.about .skew:before {
+  background-color: #ffff00;
+}

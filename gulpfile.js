@@ -1,69 +1,108 @@
-// Require all the things
-const gulp = require('gulp'),
-      sass = require('gulp-sass'),
-      gutil = require('gulp-util'),
-      plumber = require('gulp-plumber'),
-      rename = require('gulp-rename'),
-      minifyCSS = require('gulp-minify-css'),
-      concat = require('gulp-concat'),
-      prefixer = require('gulp-autoprefixer'),
-      connect = require('gulp-connect');
-      cp = require('child_process');
+var gulp        = require('gulp');
+var deploy      = require("gulp-gh-pages");
+var browserSync = require('browser-sync');
+var sass        = require('gulp-sass');
+var prefix      = require('autoprefixer');
+var sourcemaps  = require('gulp-sourcemaps');
+var cp          = require('child_process');
+var postcss     = require('gulp-postcss');
+var csswring    = require('csswring');
+var cssnano     = require('cssnano');
+var del         = require('del');
+var pxtorem     = require('postcss-pxtorem');
 
-// Set the path variables
-const base_path = './',
-      src = base_path + '_dev/src',
-      dist = base_path + 'assets',
-      paths = {
-          js: src + '/js/*.js',
-          scss: [ src +'/sass/*.scss',
-                  src +'/sass/**/* .scss',
-                  src +'/sass/**/**/*.scss'],
-          jekyll: ['index.html', '_posts/*', '_layouts/*', '_includes/*' , 'assets/*', 'assets/**/*']
-      };
+var env = process.env.NODE_ENV || 'prod';
+var jekyll   = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
+var messages = {
+    jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
+};
 
-// Compile sass to css
-gulp.task('compile-sass', function() {
-  return gulp.src(paths.scss)
-    .pipe(plumber(function(error) {
-        gutil.log(gutil.colors.red(error.message));
-        gulp.task('compile-sass').emit('end');
-    }))
-    .pipe(sass())
-    .pipe(prefixer('last 3 versions', 'ie 9'))
-    .pipe(minifyCSS())
-    .pipe(rename({dirname: dist + '/css'}))
-    .pipe(gulp.dest('./'));
+/**
+ * Build the Jekyll Site
+ */
+gulp.task('jekyll-build', function (done) {
+    browserSync.notify(messages.jekyllBuild);
+    if(env === 'prod') {
+        return cp.spawn( jekyll, ['build'], {stdio: 'inherit'})
+        .on('close', done);
+    } else {
+        return cp.spawn( jekyll, ['build','--config', '_config.yml,_config.dev.yml'], {stdio: 'inherit'})
+        .on('close', done);
+    }
 });
 
-// Minify JS
-gulp.task('scripts', function() {
-  return gulp.src(['bower_components/jquery/dist/jquery.min.js', 'assets/js/main.js','assets/js/parsley.min.js'])
-    .pipe(concat('main-scripts.js'))
-    .pipe(gulp.dest('assets/js'));
+/**
+ * Rebuild Jekyll & do page reload
+ */
+gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
+    browserSync.reload();
 });
 
-// Rebuild Jekyll
-gulp.task('build-jekyll', function (code) {
-  return cp.spawn('jekyll', ['build'], {stdio: 'inherit'})
-    //.on('error', (error) gutil.log(gutil.colors.red(error.message)))
-    .on('close', code);
-})
-
-// Setup Server
-gulp.task('server', function () {
-  connect.server({
-    root: ['_site'],
-    port: 4000
-  });
-})
-
-// Watch files
-gulp.task('watch', function () {
-  gulp.watch(paths.scss, ['compile-sass']);
-  gulp.watch(paths.scss, ['scripts']);
-  gulp.watch(paths.jekyll, ['build-jekyll']);
+/**
+ * Wait for jekyll-build, then launch the Server
+ */
+gulp.task('browser-sync', ['sass', 'jekyll-build'], function() {
+    browserSync({
+        server: {
+            baseDir: '_site'
+        }
+    });
 });
 
-// Start Everything with the default task
-gulp.task('default', [ 'compile-sass', 'scripts', 'build-jekyll', 'server', 'watch' ]);
+/**
+ * Compile files from _scss into both _site/css (for live injecting) and site (for future jekyll builds)
+ */
+gulp.task('sass', function () {
+    var processors = [
+            prefix({ browsers: ['> 5%', 'last 3 versions'] }),
+            csswring,
+            cssnano,
+            pxtorem({
+              propWhiteList:[],
+              mediaQuery: true
+            })
+          ];
+    return gulp.src('_scss/main.scss')
+    .pipe(sourcemaps.init())
+        .pipe(sass({
+            includePaths: ['scss'],
+            onError: browserSync.notify
+        }))
+        .pipe(postcss(processors))
+        .pipe(sourcemaps.write('maps/'))
+        .pipe(gulp.dest('_site/assets/css'))
+        .pipe(browserSync.reload({stream:true}))
+        .pipe(gulp.dest('assets/css'));
+});
+
+/**
+ * Watch scss files for changes & recompile
+ * Watch html/md/js/image/json files, run jekyll & reload BrowserSync
+ */
+    gulp.task('watch', function () {
+    gulp.watch('_scss/*.scss', ['sass']);
+    gulp.watch(['./**/*.html', '_data/*.json', 'assets/scripts/*.js', 'assets/images/*.*', './**/*.md'], ['jekyll-rebuild']);
+});
+
+/**
+ * Delete .publish directory
+ */
+gulp.task('clean', function () {
+    return del('.publish/**/*');
+});
+
+/**
+ * Default task, running just `gulp` will compile the sass,
+ * compile the jekyll site, launch BrowserSync & watch files.
+ * To run locally:
+ * $ NODE_ENV=dev gulp
+ */
+gulp.task('default', ['browser-sync', 'watch']);
+
+/**
+ * Deploy to GitHub Pages
+ */
+gulp.task("deploy", ["jekyll-build"], function () {
+    return gulp.src("./_site/**/*")
+        .pipe(deploy());
+});

@@ -1,0 +1,48 @@
+/*===============================================
+Typography
+===============================================*/
+
+.wf-loading {
+   visibility: hidden;
+}
+
+body {
+    font-family: $roboto;
+    font-style: normal;
+    font-weight: $regular;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-family: $proxi;
+  font-weight: $headline;
+  font-style: normal;
+  font-size: 31px;
+    @include media(large) {
+        font-size: 48px;
+    }
+}
+
+h2 {
+    font-family: $proxi;
+    font-weight: $headline;
+    font-size: 22px;
+      @include media(large) {
+      font-size: 42px;
+    }
+}
+
+h3 {
+  font-family: $proxi;
+  font-weight: $headline;
+  font-size: 32px;
+    @include media(large) {
+    font-size: 26px;
+  }
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.45;
+}

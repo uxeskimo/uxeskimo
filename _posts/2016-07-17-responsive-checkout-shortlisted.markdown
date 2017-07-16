@@ -1,6 +1,6 @@
 ---
 layout: post
-body-page-class: checkout blog
+body-page-class: pink checkout
 excerpt_separator: <!--more-->
 title:  "Responsive checkout shortlisted"
 date:   2016-07-17
