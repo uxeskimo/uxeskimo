@@ -6,6 +6,7 @@ Navigation
   display: none;
   width: 100%;
     @include media(medium) {
+      display: inline-block;
       position: relative;
       float: right;
       width: auto;
