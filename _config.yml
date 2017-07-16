@@ -6,11 +6,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Design podcasts
+title: UX Eskimo
 email: uxeskimo@gmail.com
-description: A website for design podcasts
-baseurl: "/design-podcasts" # the subpath of your site, e.g. /blog
-url: "https://uxeskimo.github.io/design-podcasts" # the base hostname & protocol for your site, e.g. http://example.com
+description: A humble designer from Manchester
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://uxeskimo.github.io/uxeskimo" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
