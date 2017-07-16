@@ -3,10 +3,8 @@ Navigation
 ===============================================*/
 
 .primary-nav {
-  position: absolute;
-  z-index: 100;
+  display: none;
   width: 100%;
-  margin-left: 100%;
     @include media(medium) {
       position: relative;
       float: right;
