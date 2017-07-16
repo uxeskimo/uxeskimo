@@ -1,6 +1,6 @@
 ---
 layout: post
-body-page-class: running blog
+body-page-class: purple running
 excerpt_separator: <!--more-->
 title:  "Keep pushing, keep pushing"
 date:   2016-05-08

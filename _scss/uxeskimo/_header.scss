@@ -1,0 +1,39 @@
+/*===============================================
+Header
+===============================================*/
+
+.main-header {
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.logo {
+  float: left;
+  color: $white;
+  margin-left: -5px;
+  text-decoration: none;
+  font-family: $proxi;
+  font-weight: $headline;
+  font-size: 27px;
+  color: $black;
+  z-index: 99;
+  @include media(large) {
+    font-size: 30px;
+  }
+  svg {
+    height: 53px;
+    float: left;
+  }
+}
+
+.intro-title {
+  float: left;
+  margin-top: 15px;
+  margin-bottom: 0;
+  margin-left: 20px;
+  font-size: 20px;
+    @include media(large) {
+        margin-top: 13px;
+        font-size: 26px;
+    }
+}

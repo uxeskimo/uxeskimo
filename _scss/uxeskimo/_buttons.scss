@@ -1,0 +1,16 @@
+/*===============================================
+Buttons
+===============================================*/
+
+.btn {
+  color: $black;
+  background-color: $white;
+  padding: 12px 40px;
+  text-decoration: none;
+  font-size: 22px;
+  font-family: $proxi;
+  &:hover {
+    background-color: $red;
+    color: $white;
+  }
+}

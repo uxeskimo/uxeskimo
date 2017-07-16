@@ -1,6 +1,6 @@
 ---
 layout: post
-body-page-class: teaching blog
+body-page-class: green code-club
 excerpt_separator: <!--more-->
 title:  "Teaching code club"
 date:   2017-05-21
@@ -46,7 +46,7 @@ Being brutality honest, being organised has traditionally not been one of my bes
 Balancing family and work life has always been a challenge but it shouldn't be. As I've got older you realise that prep is the key, I use the app 'Things' to manage tasks.  They've done an update to <a href="https://culturedcode.com/things/">Things (version 3)</a> last week and its awesome (winning combination alongside <a href="https://evernote.com/">Evernote</a> for archiving notes).  
 
 ## Get involved
-Why not get involved?  So far for me this has been rewarding, it's forcing me out of my comfort zone and, in doing so, helping me improve myself by helping others. 
+Why not get involved?  So far for me this has been rewarding, it's forcing me out of my comfort zone and, in doing so, helping me improve myself by helping others.
 
 Have a look on the code club website for <a href="https://www.codeclub.org.uk/find-a-club">clubs near to you</a>.
 

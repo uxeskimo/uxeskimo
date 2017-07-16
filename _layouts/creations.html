@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    {% include metas.html %}
+    <!--[if lt IE 9]>
+        {% include olderIE.html %}
+    <![endif]-->
+
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
+
+    <!--[if lte IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <script src="https://use.typekit.net/ygj4hou.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  </head>
+  <body>
+
+    <nav class="skip-nav">
+        <ul>
+            <li><a href="#main" title="Skip to main content">Skip to content</a></li>
+        </ul>
+    </nav>
+
+    <div class="main-wrap creations">
+
+                {% include header.html %}
+
+
+        <main id="main" class="main">
+
+                {{ content }}
+
+        </main>
+
+    </div>
+
+    {% include footer.html %}
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/scripts/script.js"></script>
+  </body>
+</html>

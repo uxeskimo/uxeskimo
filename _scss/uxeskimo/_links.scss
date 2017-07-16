@@ -1,0 +1,26 @@
+/*===============================================
+Links
+===============================================*/
+
+a {
+  color: $black;
+}
+
+.link-list {
+  padding-left: 0;
+  line-height: 1.8;
+  li {
+    list-style: none;
+    padding: 10px 0;
+    a {
+      border-bottom: 3px solid #21d67f;
+      color: #6238bd;
+      text-decoration: none;
+      font-weight: 900;
+      font-size: 18px;
+        @include media(medium) {
+            font-size: 20px;
+        }
+    }
+  }
+}
