@@ -233,6 +233,9 @@ Blog post
 .pioneer {
   .blog-hero {
       background-image: url("https://s3-eu-west-1.amazonaws.com/eskimo/diverse-team.jpg");
-      background-position: 80% 0;
+      background-position: 0 29px;
+        @include media(large) {
+            background-position: 80% 0;
+        }
    }
 }
