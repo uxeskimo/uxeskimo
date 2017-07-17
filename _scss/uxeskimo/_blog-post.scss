@@ -104,6 +104,7 @@ Blog post
 }
 
 .author {
+  padding-left: 0;
     @include media(medium) {
         padding-left: 8px;
     }
