@@ -104,7 +104,9 @@ Blog post
 }
 
 .author {
-  padding-left: 8px;
+    @include media(medium) {
+        padding-left: 8px;
+    }
 }
 
 .skew {
