@@ -36,6 +36,7 @@ Home
 .hero-1 {
   background-image: url("https://s3-eu-west-1.amazonaws.com/eskimo/lee-murray-coop.jpg");
   background-position: 32% 0;
+  background-color: #010101;
     @include media(large) {
       background-position: 0 0;
     }
@@ -44,6 +45,7 @@ Home
 .hero-3 {
   background-image: url("https://s3-eu-west-1.amazonaws.com/eskimo/bear-writing.jpg");
   background-position: 34% 0;
+  background-color: #0b0d19;
     @include media(large) {
       background-position: 0 0;
     }
@@ -52,6 +54,7 @@ Home
 .hero-2 {
   background-image: url("https://s3-eu-west-1.amazonaws.com/eskimo/photoshop-work.jpg");
   background-position: 34% 0;
+  background-color: #070f14;
     @include media(large) {
       background-position: 0 0;
     }
