@@ -34,7 +34,7 @@ Home
 }
 
 .hero-1 {
-  background-image: url("../images/lee-murray-glitched.jpg");
+  background-image: url("https://s3-eu-west-1.amazonaws.com/eskimo/lee-murray-coop.jpg");
   background-position: 32% 0;
     @include media(large) {
       background-position: 0 0;
@@ -42,7 +42,7 @@ Home
 }
 
 .hero-3 {
-  background-image: url("../images/bear-writing.jpg");
+  background-image: url("https://s3-eu-west-1.amazonaws.com/eskimo/bear-writing.jpg");
   background-position: 34% 0;
     @include media(large) {
       background-position: 0 0;
@@ -50,7 +50,7 @@ Home
 }
 
 .hero-2 {
-  background-image: url("../images/photoshop-work.jpg");
+  background-image: url("https://s3-eu-west-1.amazonaws.com/eskimo/photoshop-work.jpg");
   background-position: 34% 0;
     @include media(large) {
       background-position: 0 0;
