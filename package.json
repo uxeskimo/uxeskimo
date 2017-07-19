@@ -1,12 +1,12 @@
 {
-  "name": "design-podcasts",
+  "name": "uxeskimo",
   "version": "0.0.1",
-  "description": "Simple jekyll website for design podcasts",
+  "description": "Website of a humble designer from Manchester.",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Lee Murray and John Aspinall",
+  "author": "Lee Murray",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^6.5.1",
@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/uxeskimo/design-podcasts.git"
+    "url": "https://github.com/uxeskimo/uxeskimo.git"
   },
   "keywords": [
     "jekyll",
@@ -36,9 +36,9 @@
     "jquery"
   ],
   "bugs": {
-    "url": "https://github.com/uxeskimo/design-podcasts/issues"
+    "url": "https://github.com/uxeskimo/uxeskimo/issues"
   },
-  "homepage": "https://github.com/uxeskimo/design-podcasts",
+  "homepage": "https://github.com/uxeskimo/uxeskimo",
   "dependencies": {
     "gulp-sourcemap": "^1.0.1"
   }
