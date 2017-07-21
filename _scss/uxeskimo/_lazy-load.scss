@@ -1,0 +1,17 @@
+/*===============================================
+Lazy load
+===============================================*/
+img.lazy {
+	  display: none;
+}
+.lazy-hidden {
+  opacity: 0;
+}
+.lazy-loaded {
+  -webkit-transition: opacity 6s;
+  -moz-transition: opacity 6s;
+  -ms-transition: opacity 6s;
+  -o-transition: opacity 6s;
+  transition: opacity 6s;
+  opacity: 1;
+}
