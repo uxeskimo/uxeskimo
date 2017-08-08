@@ -173,9 +173,12 @@ Blog post
      }
   }
   a {
-    color: #6238bd;
+    color: $body-copy;
     text-decoration: none;
     border-bottom: 3px solid #21d67f;
+    &:hover {
+      color: #6238bd;
+    }
   }
 }
 

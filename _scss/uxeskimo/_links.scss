@@ -14,12 +14,15 @@ a {
     padding: 10px 0;
     a {
       border-bottom: 3px solid #21d67f;
-      color: #6238bd;
+      color: $body-copy;
       text-decoration: none;
       font-weight: 900;
       font-size: 18px;
         @include media(medium) {
             font-size: 20px;
+        }
+        &:hover {
+          color:#6238bd;
         }
     }
   }

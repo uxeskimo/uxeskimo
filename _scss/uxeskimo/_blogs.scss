@@ -22,9 +22,6 @@ Blogs
   margin-bottom: 28px;
   margin-top: 68px;
   font-size: 38px;
-      @include media(medium) {
-        font-size: 61px;
-      }
       @include media(large) {
         margin-bottom: 12px;
         margin-top: 140px;
@@ -75,9 +72,12 @@ Blogs
       }
     a {
       border-bottom: 3px solid #21d67f;
-      color: #6238bd;
+      color: $body-copy;
       text-decoration: none;
       font-size: 20px;
+      &:hover {
+        color: #6238bd;
+      }
     }
   }
   h2 {
@@ -93,6 +93,9 @@ Blogs
     border-bottom: 3px solid #21d67f;
     text-decoration: none;
     font-size: 20px;
+    &:hover {
+      color: #6238bd;
+    }
   }
 }
 
