@@ -246,16 +246,14 @@ Blog post
 }
 
 .page-navigation {
-  margin-top: 140px;
-  display: block;
+  display: inline-block;
   width: auto;
   overflow: hidden;
 }
 
 .page-navigation a {
   display: block;
-  float: left;
-  margin: 20px 0;
+  margin-bottom: 20px;
   color:#6238bd;
   line-height: 1.8;
   text-decoration: none;
@@ -263,8 +261,4 @@ Blog post
 
 .main .page-navigation a {
     border-bottom: 3px solid #21d67f;
-}
-
-.page-navigation .next {
-  float: right;
 }
