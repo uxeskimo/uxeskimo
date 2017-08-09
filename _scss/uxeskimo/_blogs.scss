@@ -105,8 +105,16 @@ Blogs
   font-size: 18px;
 }
 
+.blog-intro {
 .words-title {
   span {
     color: #21d67f;
   }
+    @include media(medium) {
+      font-size: 51px;
+    }
+    @include media(large) {
+      font-size: 77px;
+    }
+}
 }
