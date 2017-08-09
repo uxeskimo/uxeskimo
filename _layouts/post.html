@@ -41,7 +41,7 @@
 
                           <h1>{{page.title}}</h1>
 
-                          <h4 class="author"><span class="author-name">Lee Murray, {{ page.date | date_to_long_string }}<span></h4>
+                          <h4 class="author"><span class="author-name">Lee Murray, {{ page.date | date_to_long_string }}</span></h4>
 
                         </div>
 
@@ -63,28 +63,35 @@
 
         <main id="main" class="main">
 
-          <div class="wrap">
-            <div class="row">
+            <div class="wrap">
+              <div class="row">
 
-              <div class="column large-7">
+                  <div class="column large-7">
 
-                <section>
+                    <section>
 
-                <article class="blog-post">
-
-
-                   {{ content }}
+                    <article class="blog-post">
 
 
-                </article>
+                       {{ content }}
 
 
-                </section>
+                    </article>
+
+                    <div class="page-navigation">
+                      {% if page.previous.url %}
+                        <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+                      {% endif %}
+                      {% if page.next.url %}
+                        <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+                      {% endif %}
+                    </div>
+                    </section>
 
                     </div>
-              </div>
-              </div>
-              </article>
+                </div>
+            </div>
+
         </main>
 
     </div>

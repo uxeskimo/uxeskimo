@@ -145,7 +145,6 @@ Blog post
     font-weight: $bold;
     margin-top: 100px;
     font-size: 32px;
-    text-transform: uppercase;
   }
   p {
     line-height: 1.8;
@@ -153,7 +152,7 @@ Blog post
     @include media(medium) {
       font-size: 20px;
     }
-    &:first-of-type {
+    &:first-of-type, &:last-of-type {
       font-weight: $headline;
     }
   }
@@ -244,4 +243,28 @@ Blog post
             background-position: 80% 0;
         }
    }
+}
+
+.page-navigation {
+  margin-top: 140px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.page-navigation a {
+  display: block;
+  float: left;
+  margin: 20px 0;
+  color:#6238bd;
+  line-height: 1.8;
+  text-decoration: none;
+}
+
+.main .page-navigation a {
+    border-bottom: 3px solid #21d67f;
+}
+
+.page-navigation .next {
+  float: right;
 }
