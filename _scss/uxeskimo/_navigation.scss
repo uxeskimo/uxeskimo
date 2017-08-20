@@ -81,9 +81,14 @@ Navigation
     ul {
       padding-left: 0;
       li {
-        &:first-of-type {
+          display: block;
+          padding-bottom: 10px;
           padding-left: 0;
-        }
+            @include media(medium) {
+              display: inline-block;
+              padding-bottom: 25px;
+              padding-left: 25px;
+            }
       }
     }
     @include media(medium) {

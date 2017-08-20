@@ -4,7 +4,7 @@ body-page-class: blue angel-square
 excerpt_separator: <!--more-->
 title:  "Head in the clouds"
 date:   2015-11-03
-categories: Co-op
+categories: blog Co-op
 ---
 Have you ever heard someone say “you’ve got your head in the clouds”?  Well that was me – literally – yesterday.
 <!--more-->

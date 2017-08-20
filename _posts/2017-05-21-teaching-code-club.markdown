@@ -4,7 +4,7 @@ body-page-class: green code-club
 excerpt_separator: <!--more-->
 title:  "Teaching code club"
 date:   2017-05-21
-categories: Teaching
+categories: blog Teaching
 ---
 
 Me trying to teach seven 9-11 years olds, what could go wrong...

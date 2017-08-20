@@ -1,0 +1,59 @@
+/*===============================================
+Learnings
+===============================================*/
+
+.learnings .impact {
+  background-color: #ff3855;
+  color: #fbe870;
+  .primary-nav ul li a {
+      color: #fbe870;
+  }
+}
+
+.learnings {
+    .logo, .mobile-menu-toggle .menu-open, .mobile-menu-toggle .icon-close-menu {
+        fill: #fbe870;
+ .intitals {
+    fill: #ff3855;
+  }
+}
+  .main {
+    background: #ede7e1;
+    padding-top: 30px;
+  }
+}
+
+.learnings .post {
+  margin-bottom: 30px;
+  padding: 25px;
+  h2 {
+    margin-top: 0;
+  }
+}
+
+.learnings .blog-intro {
+  height: 235px;
+  @include media(medium) {
+      height: 379px;
+  }
+}
+
+.learning-post {
+  h1 {
+    margin-top: 50px;
+    font-size: 38px;
+    @include media(medium) {
+        margin-top: 100px;
+        font-size: 77px;
+    }
+  }
+
+}
+
+.learning {
+  p {
+      &:last-of-type {
+          font-weight: normal;
+      }
+  }
+}

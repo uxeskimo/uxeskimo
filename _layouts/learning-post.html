@@ -17,7 +17,7 @@
     <script src="https://use.typekit.net/ygj4hou.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
   </head>
-  <body>
+  <body class="{{page.body-page-class}}">
 
     <nav class="skip-nav">
         <ul>
@@ -25,19 +25,21 @@
         </ul>
     </nav>
 
-    <div class="main-wrap blog">
+    <div class="main-wrap">
+
+      <div class="impact">
 
                 {% include header.html %}
 
-                <div class="blog-intro impact-grey">
+                <div class="learning-post">
 
                   <div class="wrap">
 
                     <div class="row">
 
-                        <div class="column medium-7">
+                        <div class="column medium-8">
 
-                          <h2 class="words-title"><span>Words</span> can change the world</h2>
+                          <h1>{{page.title}}</h1>
 
                         </div>
 
@@ -47,33 +49,33 @@
 
                 </div>
 
+              </div>
+
 
         <main id="main" class="main">
 
-          <div class="wrap">
-            <div class="row">
+            <div class="wrap">
+              <div class="row">
 
-              <div class="column medium-7">
+                  <div class="column large-7">
 
-                <section>
-                  {% for post in site.categories.blog %}
+                    <section>
 
-                <article class="post">
+                    <article class="blog-post learning">
 
-                       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><h2>{{ post.title }}</h2></a>
-                        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-                          {{ post.excerpt }}
+                        <h4><span class="author-name">Lee Murray, {{ page.date | date_to_long_string }}</span></h4>
 
-                          <a href="{{ post.url | prepend: site.baseurl }}" class="more-link">Read more</a>
+                       {{ content }}
 
-                </article>
 
-                          {% endfor %}
-                </section>
+                    </article>
+
+                    </section>
 
                     </div>
-                 </div>
-              </div>
+                </div>
+            </div>
+
         </main>
 
     </div>

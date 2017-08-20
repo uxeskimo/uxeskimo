@@ -4,7 +4,7 @@ body-page-class: yellow pioneer
 excerpt_separator: <!--more-->
 title:  "Leading diversity - the Co-op"
 date:   2017-07-17
-categories: Diversity
+categories: blog Diversity
 ---
 
 I was in the process of finishing off a blog on a different subject at the weekend but then I got some good news about a thing that’s close to my heart; that news is why I write this post.

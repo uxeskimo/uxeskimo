@@ -4,7 +4,7 @@ body-page-class: purple running
 excerpt_separator: <!--more-->
 title:  "Keep pushing, keep pushing"
 date:   2016-05-08
-categories: Running
+categories: blog Running
 ---
 
 Keep pushing, keep pushing, it’s the last mile, I’ve ran well up to now and I’m gaining momentum, just another minute and I can rest.

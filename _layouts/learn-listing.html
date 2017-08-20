@@ -25,55 +25,65 @@
         </ul>
     </nav>
 
-    <div class="main-wrap blog">
+    <div class="main-wrap learnings">
+
+      <div class="impact">
 
                 {% include header.html %}
 
-                <div class="blog-intro impact-grey">
+                  <div class="blog-intro">
 
-                  <div class="wrap">
+                    <div class="wrap">
 
-                    <div class="row">
+                      <div class="row">
 
-                        <div class="column medium-7">
+                          <div class="column medium-7">
 
-                          <h2 class="words-title"><span>Words</span> can change the world</h2>
+                            <h2 class="words-title">Today I learnt</h2>
 
-                        </div>
+                          </div>
+
+                      </div>
 
                     </div>
 
                   </div>
 
-                </div>
-
+          </div>
 
         <main id="main" class="main">
 
           <div class="wrap">
+              {% for post in site.categories.learning %}
+
+              {% capture modulo %}{{ forloop.index | modulo: 3 }}{% endcapture %}
+              {% if modulo == '1' %}
             <div class="row">
+              {% endif %}
+                  <div class="column medium-4">
 
-              <div class="column medium-7">
+                    <section>
 
-                <section>
-                  {% for post in site.categories.blog %}
+                    <article class="post">
 
-                <article class="post">
+                           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><h2>{{ post.title }}</h2></a>
+                            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+                              {{ post.excerpt }}
 
-                       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><h2>{{ post.title }}</h2></a>
-                        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-                          {{ post.excerpt }}
+                              <a href="{{ post.url | prepend: site.baseurl }}" class="more-link">Read more</a>
 
-                          <a href="{{ post.url | prepend: site.baseurl }}" class="more-link">Read more</a>
+                    </article>
 
-                </article>
 
-                          {% endfor %}
-                </section>
+                    </section>
 
-                    </div>
-                 </div>
-              </div>
+                  </div>
+                  {% if modulo == '0' or forloop.last %}
+
+           </div>
+             {% endif %}
+             {% endfor %}
+          </div>
         </main>
 
     </div>
