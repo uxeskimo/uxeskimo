@@ -8,7 +8,7 @@ categories: learning work
 ---
 
 
-My delivery manager at work asked us (product team) if we minded doing the 16 personalise test for the<!--more--> good of the team so we understand each other better and our types of personalities.
+My delivery manager at work asked us (product team) if we minded doing the 16 personalities test for the<!--more--> good of the team so we understand each other better and our types of personalities.
 
 I’d never done this before so was intrigued, off I went to the website at [https://www.16personalities.com](https://www.16personalities.com) and answered a series of questions and this is what my results we’re.
 
