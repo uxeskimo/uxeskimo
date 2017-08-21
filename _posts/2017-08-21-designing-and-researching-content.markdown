@@ -2,7 +2,7 @@
 layout: learning-post
 body-page-class:
 excerpt_separator: <!--more-->
-title:  "Designing and testing content"
+title:  "Designing and researching content"
 date:   2017-08-21
 categories: learning work
 ---
@@ -15,7 +15,7 @@ We designed a prototype in the browser using the static site generator [Jekyll](
 
 Re-writing the policies takes time, so I initially designed the home page as a list of links which would need to be improved as we re-wrote more policies but it allowed us to get feedback on our new content straight away.
 
-While the content was being updated it gave us an opportunity to do a card sort with colleagues which was led by our researcher to see how they would categorise and group content.  We're also recording search queries on the prototype so this combined with the findings from the card sort has allowed the content designers to propose an initial stab at what the categories should be.
+While the content was being updated it gave us an opportunity to do a [card sort](https://www.smashingmagazine.com/2014/10/improving-information-architecture-card-sorting-beginners-guide/) with colleagues which was led by our researcher to see how they would categorise and group content.  We're also recording search queries on the prototype so this combined with the findings from the card sort has allowed the content designers to propose an initial stab at what the categories should be.
 
 <img src="https://s3-eu-west-1.amazonaws.com/eskimo/card-sort-findings.jpg" alt="Card sort findings">
 
