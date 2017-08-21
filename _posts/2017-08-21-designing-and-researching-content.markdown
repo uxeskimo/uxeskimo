@@ -27,7 +27,7 @@ With simplicity in mind, I’ve designed two versions of the home page with link
 
 <img src="https://s3-eu-west-1.amazonaws.com/eskimo/prototype-one.jpg" alt="Prototype screen">
 
-In my mind the design should make it easy to find procedures and when found be presented in a way thats most appropriate to the task, so the user understands the information however it is presented.
+In my mind the design should make it easy to find procedures and when found be presented in a way that's most appropriate to the task, so the user understands the information however it is presented.
 
 Well good day of design work, we will get the prototypes in store this week, I’ll let you know how we get on and what we learn.
 
