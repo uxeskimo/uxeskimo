@@ -12,7 +12,7 @@ Here's something I didn't know you could specificly target via CSS, the first le
 <!--more-->
 <pre><code class="language-css">p::first-letter {
   font-size: 40px;
-  color: blue;
+  color: #21d67f;
 }</code></pre>
 
 Which would give you

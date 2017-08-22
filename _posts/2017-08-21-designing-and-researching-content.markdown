@@ -7,7 +7,7 @@ date:   2017-08-21
 categories: learning work
 ---
 
-I've been working on a project that requires a website to display procedures and <!--more-->policies for colleagues that work in food stores.
+I've been working on a project that requires a website to <!--more-->display procedures and policies for colleagues that work in food stores.
 
 The procedures are being re-written by our content designers so we need to ensure that when a colleague uses the website they can easily find what they're looking for.  
 
