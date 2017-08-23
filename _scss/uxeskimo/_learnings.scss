@@ -56,4 +56,22 @@ Learnings
           font-weight: normal;
       }
   }
+  ul {
+    padding-left: 0;
+    line-height: 1.8;
+    li {
+      list-style: none;
+      padding: 0.625rem 0;
+      a {
+        border-bottom: 0.1875rem solid #21d67f;
+        color: #282828;
+        text-decoration: none;
+        font-weight: 900;
+        font-size: 18px;
+          @include media(medium) {
+              font-size: 20px;
+          }
+      }
+    }
+  }
 }
