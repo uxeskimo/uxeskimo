@@ -10,7 +10,7 @@ categories: learning work
 From looking into Django yesterday, on to a more important topic, looking after yourself!<!--more-->
 
 
-I've wanted to get fitter at the minute and managed to get into the gym at work 4 times last week which was great.  This week is not so great as I now have have a sore back, something which is common when working on computers for a living.
+I've wanted to get fitter at the minute and managed to get into the gym at work 4 times last week which was great.  This week is not so great as I now have a sore back, something which is common when working on computers for a living.
 
 I've made a promise to myself that I won't use computers without the correct equipment and you should to.  From tomorrow I will now use the following with my macbook laptop:
 
