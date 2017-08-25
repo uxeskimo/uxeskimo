@@ -45,12 +45,24 @@ Learnings
     @include media(medium) {
         margin-top: 100px;
         font-size: 77px;
+        margin-bottom: 0;
+    }
+    &::after {
+      display: block;
+      content: "";
+      border-bottom: 12px solid #21d67f;
+      width: 80px;
+      margin-top: 25px;
+      @include media(medium) {
+          margin-top: 75px;
+      }
     }
   }
 
 }
 
 .learning {
+
   p {
       &:last-of-type {
           font-weight: normal;
