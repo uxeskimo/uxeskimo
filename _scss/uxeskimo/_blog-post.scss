@@ -100,6 +100,35 @@ Blog post
    fill: $white;
 }
 
+.light-green .impact {
+  background: #519469;
+  color: #bfe0f2;
+}
+
+.light-green.skew:before {
+    background: #519469;
+}
+
+.light-green .primary-nav ul li a {
+  color:#bfe0f2;
+}
+
+.light-green .mobile-menu-toggle .menu-open {
+   fill: #bfe0f2;
+}
+
+.light-green .logo svg {
+  fill: #bfe0f2;
+}
+.light-green .logo .intitals {
+  fill: #519469;
+}
+
+.light-green .skew:before {
+   background: #519469;
+}
+
+
 .intro-post {
   height: 203px;
       @include media(large) {
@@ -248,6 +277,18 @@ Blog post
         }
    }
 }
+.communication {
+  .blog-hero {
+      background-image: url("https://s3-eu-west-1.amazonaws.com/eskimo/design-communication.jpg");
+      background-position: 0 29px;
+        @include media(large) {
+            background-position: 80% 0;
+        }
+   }
+}
+
+
+
 
 .page-navigation {
   display: inline-block;
