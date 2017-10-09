@@ -46,7 +46,7 @@ Alarm bells rang, this is an area to explore, he used initiative and spoke to st
 
 Disgruntled at losing hours because of the new machines, when they had to empty the tokens at the end of the day and put them in the machine to pay which was in the university, they were keeping some to sell on.  
 
-They had their own interests at heart and tinkered they system to their own benefit.
+They had their own interests at heart and tinkered the system to their own benefit.
 
 ## Take a step back to look at the whole picture
 I promised this story would be short, so I’ll cut it there, I’m hoping you get the moral of it though? (I’ll tell you anyway)
