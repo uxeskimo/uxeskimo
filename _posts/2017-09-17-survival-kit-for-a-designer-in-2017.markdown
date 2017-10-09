@@ -41,7 +41,7 @@ Within reason, question everything, you're a problem solver and the best designe
 ## Sketching
 Next up sketching, one thing straight away on this - ANYONE can sketch and it's not just the role of the designer in the team to do this.  I prefer to encourage everyone to get their pens out and sketch their ideas collaboratively.
 
-I've run workshops with teams in the past which have been successful but I personally like a team to be really informal with the sketches 'buddying' up or better still <a href="http://localhost:3000/learning/design/2017/08/14/the-three-amigos.html">'three amigoing'</a>, we're all human and when we are comfortable and relaxed the better ideas come out.
+I've run workshops with teams in the past which have been successful but I personally like a team to be really informal with the sketches 'buddying' up or better still <a href="http://www.uxeskimo.co.uk/learning/design/2017/08/14/the-three-amigos.html">'three amigoing'</a>, we're all human and when we are comfortable and relaxed the better ideas come out.
 
 ## Design patterns
 Does your organisation have a design manual or pattern library, if they don't maybe they could benefit from one.

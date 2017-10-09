@@ -1,6 +1,6 @@
 # Lee Murray Designer
 
-Persoal website for me, Lee Murray.
+Personal website for me, Lee Murray.
 
 ## System Prep
 
