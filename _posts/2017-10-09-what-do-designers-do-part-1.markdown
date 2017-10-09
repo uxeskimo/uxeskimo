@@ -72,7 +72,7 @@ I often hear that stakeholders on projects don’t get the value of teams workin
 
 Teams spending time and effort upfront researching and learning that could result in just a recommendation that an idea is not worth pursuing,  I get that.
 
-Traditionally businesses want to to know up front the benefits they are going to get, to get money approved upfront without knowing the benefits at the end of it.
+Traditionally businesses want to know up front the benefits they are going to get.  To get money approved upfront without knowing the benefits at the end of it is alien to them.
 
 We must understand the approach of working from our research and user needs can be difficult for a business to articulate sometimes.
 
