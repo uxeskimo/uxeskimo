@@ -44,18 +44,8 @@ Learnings
     font-size: 38px;
     @include media(medium) {
         margin-top: 100px;
-        font-size: 77px;
+        font-size: 125px;
         margin-bottom: 0;
-    }
-    &::after {
-      display: block;
-      content: "";
-      border-bottom: 12px solid #21d67f;
-      width: 80px;
-      margin-top: 25px;
-      @include media(medium) {
-          margin-top: 75px;
-      }
     }
   }
 
@@ -87,3 +77,55 @@ Learnings
     }
   }
 }
+
+.no-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 35px 0 65px 0;
+}
+
+.primary-btn {
+  background-color: #6238bd;
+  color: #fff;
+}
+
+.circle {
+  width:60px;
+  height:60px;
+  border-radius:100%;
+  background:url(https://s3-eu-west-1.amazonaws.com/eskimo/lee-author.jpg) center no-repeat; 
+   margin-top: 25px;
+      @include media(medium) {
+          margin-top: 75px;
+      }
+ }
+.learning-nav a {
+    color: #31d582;
+ }
+
+.blog-intro .words-title {
+ .lee-i {
+ color: #fae778;
+ &::before {
+  position: absolute;
+  content: '';
+  width:15px;
+  height:15px;
+  border-radius:100%;
+  background:url(https://s3-eu-west-1.amazonaws.com/eskimo/me-pic.jpg) 47% 45% no-repeat; 
+  margin-top: -1px;
+  margin-left: -2px;
+  @include media(medium) {
+      width:18px;
+      height:18px;
+      margin-top: 0;
+    }
+    @include media(large) {
+      width:30px;
+      height:30px;
+      margin-top: -2px;
+    }
+      }
+
+   }
+ }

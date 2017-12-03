@@ -24,14 +24,6 @@ Blog post
    background: #339933;
 }
 
-.green .primary-nav ul li a {
-  color:$white;
-}
-
-.green .mobile-menu-toggle .menu-open {
-   fill: $white;
-}
-
 .red .impact {
   background-color: #e91c23;
   color: $white;
@@ -39,14 +31,6 @@ Blog post
 
 .red .skew:before {
    background: #e91c23;
-}
-
-.red .primary-nav ul li a {
-  color: $white;
-}
-
-.red .mobile-menu-toggle .menu-open {
-   fill: $white;
 }
 
 .purple .impact {
@@ -58,14 +42,6 @@ Blog post
     background: #8e3581;
 }
 
-.purple .primary-nav ul li a {
-  color:$white;
-}
-
-.purple .mobile-menu-toggle .menu-open {
-   fill: $white;
-}
-
 .blue .impact {
   background: #2099cb;
   color:$white;
@@ -75,13 +51,6 @@ Blog post
    background: #2099cb;
 }
 
-.blue .primary-nav ul li a {
-  color:$white;
-}
-
-.blue .mobile-menu-toggle .menu-open {
-   fill: $white;
-}
 
 .pink .impact {
   background: #ea215a;
@@ -92,14 +61,6 @@ Blog post
    background: #ea215a;
 }
 
-.pink .primary-nav ul li a {
-   color:$white;
-}
-
-.pink .mobile-menu-toggle .menu-open {
-   fill: $white;
-}
-
 .light-green .impact {
   background: #519469;
   color: #bfe0f2;
@@ -107,14 +68,6 @@ Blog post
 
 .light-green.skew:before {
     background: #519469;
-}
-
-.light-green .primary-nav ul li a {
-  color:#bfe0f2;
-}
-
-.light-green .mobile-menu-toggle .menu-open {
-   fill: #bfe0f2;
 }
 
 .light-green .logo svg {
@@ -128,34 +81,6 @@ Blog post
    background: #519469;
 }
 
-.dark-blue .impact {
-  background: #0f1f3e;
-  color: #0a664e;
-}
-
-.dark-blue .skew:before {
-    background: #0f1f3e;
-}
-
-.dark-blue .primary-nav ul li a {
-  color:#0a664e;
-}
-
-.dark-blue .mobile-menu-toggle .menu-open {
-   fill: #0a664e;
-}
-
-.dark-blue .logo svg {
-  fill: #0a664e;
-}
-.dark-blue .logo .intitals {
-  fill: #0f1f3e;
-}
-
-.dark-blue .skew:before {
-   background: #0f1f3e;
-}
-
 .intro-post {
   height: 203px;
       @include media(large) {
@@ -164,10 +89,10 @@ Blog post
 }
 
 .author {
-  padding-left: 0;
-    @include media(medium) {
-        padding-left: 8px;
-    }
+  padding-left: 4px;
+   @include media(large) {
+     padding-left: 7px;
+   }
 }
 
 .skew {
@@ -323,9 +248,6 @@ Blog post
         }
    }
 }
-
-
-
 
 .page-navigation {
   display: inline-block;

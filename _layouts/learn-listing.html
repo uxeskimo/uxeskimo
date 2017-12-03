@@ -39,7 +39,7 @@
 
                           <div class="column medium-7">
 
-                            <h2 class="words-title">Today I learnt</h2>
+                            <h2 class="words-title">Today <span class="lee-i">i</span> learnt</h2>
 
                           </div>
 
@@ -54,7 +54,7 @@
         <main id="main" class="main">
 
           <div class="wrap">
-              {% for post in site.categories.learning %}
+             {% for post in paginator.posts %}
 
               {% capture modulo %}{{ forloop.index | modulo: 3 }}{% endcapture %}
               {% if modulo == '1' %}
@@ -62,7 +62,7 @@
               {% endif %}
                   <div class="column large-4">
 
-                    <section>
+                    <section class="box">
 
                     <article class="post">
 
@@ -84,6 +84,24 @@
              {% endif %}
              {% endfor %}
 
+         <div class="row">
+            <div class="column">
+              {% if paginator.total_pages > 1 %}
+              <ul class="no-list">
+                {% if paginator.previous_page %}
+                <li>
+                  <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="primary-btn btn">Newer learnings</a>
+                </li>
+                {% endif %}
+                {% if paginator.next_page %}
+                <li>
+                  <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="primary-btn btn">Older learnings</a>
+                </li>
+                {% endif %}
+              </ul>
+              {% endif %}
+            </div>
+          </div>
   
           </div>
         </main>

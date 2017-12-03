@@ -24,8 +24,8 @@ Blogs
   font-size: 38px;
       @include media(large) {
         margin-bottom: 12px;
-        margin-top: 140px;
-        font-size: 77px;
+        margin-top: 76px;
+        font-size: 97px;
       }
 }
 
@@ -112,9 +112,27 @@ Blogs
   }
     @include media(medium) {
       font-size: 51px;
+      margin-top: 132px;
     }
     @include media(large) {
+      margin-top: 126px;
       font-size: 77px;
     }
 }
+}
+
+.creations .main .spc-title {
+   margin-bottom: 25px;
+    @include media(medium) {
+    margin-bottom: 18px;
+    }
+}
+
+.sml-btn {
+   background-color: #6238bd;
+   color: #fff;
+   font-size: 18px;
+     @include media(medium) {
+      padding: 11px 20px;
+    }
 }

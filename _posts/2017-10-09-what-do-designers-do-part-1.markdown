@@ -1,6 +1,6 @@
 ---
 layout: post
-body-page-class: dark-blue service-design
+body-page-class: yellow service-design
 excerpt_separator: <!--more-->
 title:  "What do designers do?"
 date:   2017-10-09
