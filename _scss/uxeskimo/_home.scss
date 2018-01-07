@@ -40,6 +40,9 @@ Home
     @include media(large) {
       background-position: 0 0;
     }
+      @include media(xxlarge) {
+      background-size: cover;
+    }
 }
 
 .hero-3 {
@@ -49,6 +52,9 @@ Home
     @include media(large) {
       background-position: 0 0;
     }
+    @include media(xxlarge) {
+      background-size: cover;
+    }
 }
 
 .hero-2 {
@@ -57,6 +63,9 @@ Home
   background-color: #070f14;
     @include media(large) {
       background-position: 0 0;
+    }
+    @include media(xxlarge) {
+      background-size: cover;
     }
     &:before {
       content: '';
