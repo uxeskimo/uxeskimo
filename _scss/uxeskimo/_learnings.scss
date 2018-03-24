@@ -32,18 +32,13 @@ Learnings
 }
 
 .learnings .blog-intro {
-  height: 235px;
-  @include media(medium) {
-      height: 379px;
-  }
+
 }
 
 .learning-post {
   h1 {
-    margin-top: 50px;
     font-size: 38px;
     @include media(medium) {
-        margin-top: 100px;
         font-size: 125px;
         margin-bottom: 0;
     }
@@ -113,8 +108,8 @@ Learnings
   height:15px;
   border-radius:100%;
   background:url(https://s3-eu-west-1.amazonaws.com/eskimo/me-pic.jpg) 47% 45% no-repeat; 
-  margin-top: -1px;
-  margin-left: -2px;
+  margin-top: 2px;
+  margin-left: -1px;
   @include media(medium) {
       width:18px;
       height:18px;
@@ -124,6 +119,7 @@ Learnings
       width:30px;
       height:30px;
       margin-top: -2px;
+      margin-left: -3px;
     }
       }
 

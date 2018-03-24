@@ -36,9 +36,10 @@ Navigation
 
 .mobile-menu-toggle {
   float: right;
-  margin-top: 10px;
+  margin-top: 5px;
   display: inline-flex;
     @include media(medium) {
+    margin-top: 10px;
     display: none;
   }
   .menu-open {
@@ -95,4 +96,46 @@ Navigation
     height: auto;
     margin-top: 0;
  }
+}
+
+.primary-nav {
+  .active {
+      padding-bottom: 0;
+      @include media(medium) {
+        padding-bottom: 2px;
+      }
+  }
+}
+
+.about {
+  .primary-nav {
+      .active {
+          border-bottom: 5px solid #fffd38;
+      }
+  }
+}
+
+.blog {
+  .primary-nav {
+      .active {
+          border-bottom: 5px solid #31d582;
+      }
+  }
+}
+
+.creations {
+  .primary-nav {
+      .active {
+          border-bottom: 5px solid #613eba;
+      }
+  }
+}
+
+
+.learnings {
+  .primary-nav {
+      .active {
+          border-bottom: 5px solid #fae778;
+      }
+  }
 }

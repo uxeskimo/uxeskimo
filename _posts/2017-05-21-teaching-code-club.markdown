@@ -1,10 +1,11 @@
 ---
 layout: post
-body-page-class: green code-club
+body-page-class: yellow code-club
 excerpt_separator: <!--more-->
 title:  "Teaching code club"
 date:   2017-05-21
 categories: blog Teaching
+image: https://s3-eu-west-1.amazonaws.com/eskimo/sale-waterside.jpg
 ---
 
 Me trying to teach seven 9-11 years olds, what could go wrong...

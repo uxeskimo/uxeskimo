@@ -3,8 +3,12 @@ Header
 ===============================================*/
 
 .main-header {
-  padding-top: 18px;
-  padding-bottom: 18px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  @include media(large) {
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
 }
 
 .logo {
@@ -21,9 +25,14 @@ Header
     font-size: 30px;
   }
   svg {
-    height: 53px;
-    width: 53px;
+    height: 40px;
+    width: 40px;
     float: left;
+    @include media(medium) {
+      margin-top: 3px;
+      height: 45px;
+      width: 45px;
+    }
   }
   .intitals {
     fill: $white;
@@ -32,12 +41,14 @@ Header
 
 .intro-title {
   float: left;
-  margin-top: 16px;
+  margin-top: 10px;
   margin-bottom: 0;
   margin-left: 10px;
   font-size: 17px;
+  @include media(medium) {
+    margin-top: 16px;
+  }
     @include media(large) {
-        margin-top: 16px;
         margin-left: 14px;
         font-size: 20px;
     }

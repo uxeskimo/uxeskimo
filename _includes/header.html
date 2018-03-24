@@ -16,10 +16,10 @@
 
                         <nav class="primary-nav">
                             <ul>
-                              <li><a href="/eskimo.html">Eskimo</a></li>
-                              <li><a href="/blog.html">Words</a></li>
-                              <li><a href="/creations.html">Creations</a></li>
-                              <li><a href="/learnings.html">Learnings</a></li>
+                              <li><a {% if page.id == 'eskimo' %} class="active"{% endif %} href="/eskimo.html">Eskimo</a></li>
+                              <li><a {% if page.id == 'blog' %} class="active"{% endif %} href="/blog.html">Words</a></li>
+                              <li><a {% if page.id == 'creations' %} class="active"{% endif %} href="/creations.html">Creations</a></li>
+                              <li><a {% if page.id == 'learnings' %} class="active"{% endif %} href="/learnings.html">Learnings</a></li>
                             </ul>
                         </nav>
 

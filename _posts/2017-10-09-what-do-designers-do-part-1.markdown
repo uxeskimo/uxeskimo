@@ -5,6 +5,7 @@ excerpt_separator: <!--more-->
 title:  "What do designers do?"
 date:   2017-10-09
 categories: blog designer
+image: https://s3-eu-west-1.amazonaws.com/eskimo/discovery.jpg
 ---
 
 Let me start with this, designers fail when we’re trying to solve the wrong problem.

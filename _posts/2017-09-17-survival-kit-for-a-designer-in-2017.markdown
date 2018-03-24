@@ -1,10 +1,11 @@
 ---
 layout: post
-body-page-class: light-green communication
+body-page-class: yellow communication
 excerpt_separator: <!--more-->
 title:  "Survival kit for a designer in 2017"
 date:   2017-09-17
 categories: blog designer
+image: https://s3-eu-west-1.amazonaws.com/eskimo/design-communication.jpg
 ---
 
 I’ve been designing now for over 17 years but I still at times have self doubts about how I approach my design and the work I produce on projects.

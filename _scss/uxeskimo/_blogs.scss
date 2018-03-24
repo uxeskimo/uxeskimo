@@ -3,14 +3,13 @@ Blogs
 ===============================================*/
 
 .blog-intro {
-    height: 243px;
-    @include media(medium) {
-      height: 355px;
-    }
-      @include media(large) {
-        height: 475px;
-        background-position: 0 0;
-      }
+  padding: 76px 0;
+  @include media(medium) {
+    padding: 120px 0;
+  }
+  @include media(large) {
+    padding: 144px 0;
+  }
 }
 
 .impact-grey {
@@ -19,18 +18,17 @@ Blogs
 }
 
 .blog-intro h1, .blog-intro h2 {
+  margin-top: 0;
   margin-bottom: 28px;
-  margin-top: 68px;
   font-size: 38px;
       @include media(large) {
         margin-bottom: 12px;
-        margin-top: 76px;
         font-size: 97px;
       }
 }
 
 .blog-intro p {
-  margin-bottom: 50px;
+  margin-bottom: 0;
   font-family: $proxi;
   font-weight: $semi-bold;
   font-size: 20px;
@@ -46,15 +44,26 @@ Blogs
 }
 
 .blog .main {
-    margin-top: 60px;
+    margin-top: 44px;
     margin-bottom: 60px;
-    @include media(medium) {
+    @include media(large) {
         margin-top: 75px;
     }
 }
 
-.post {
+.post .main {
+  margin-top: -96px;
+  background: $white;
+  clear: both;
+  .wrap {
+    background: $white;
+  }
+}
+
+.learnings .post {
   background-color: #fff;
+}
+.post {
   margin-bottom: 60px;
     @include media(medium) {
         margin-bottom: 115px;
@@ -107,15 +116,14 @@ Blogs
 
 .blog-intro {
 .words-title {
+  font-size: 48px;
   span {
     color: #21d67f;
   }
     @include media(medium) {
       font-size: 51px;
-      margin-top: 132px;
     }
     @include media(large) {
-      margin-top: 126px;
       font-size: 77px;
     }
 }

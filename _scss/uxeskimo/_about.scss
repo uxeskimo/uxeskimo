@@ -20,9 +20,9 @@ About
 }
 
 .about .main {
-  margin-top: 60px;
+    margin-top: 44px;
     margin-bottom: 60px;
-    @include media(medium) {
+    @include media(large) {
       margin-top: 75px;
       margin-bottom: 130px;
     }

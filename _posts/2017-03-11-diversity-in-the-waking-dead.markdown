@@ -5,6 +5,7 @@ excerpt_separator: <!--more-->
 title:  "Diversity in the walking dead"
 date:   2017-03-11
 categories: blog Teamwork
+image: https://s3-eu-west-1.amazonaws.com/eskimo/diversity-in-the-walking-dead.jpg
 ---
 
 I'd heard a lot of noise about 'The Walking Dead' but it didn't grab me when it first started broadcasting, it's only recently that I thought lets see what the fuss is about.

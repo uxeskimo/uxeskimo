@@ -1,10 +1,11 @@
 ---
 layout: post
-body-page-class: purple running
+body-page-class: yellow running
 excerpt_separator: <!--more-->
 title:  "Keep pushing, keep pushing"
 date:   2016-05-08
 categories: blog Running
+image: http://s3-eu-west-1.amazonaws.com/eskimo/trimpell-run.jpg
 ---
 
 Keep pushing, keep pushing, it’s the last mile, I’ve ran well up to now and I’m gaining momentum, just another minute and I can rest.

@@ -5,6 +5,7 @@ excerpt_separator: <!--more-->
 title:  "Responsive checkout shortlisted"
 date:   2016-07-17
 categories: blog Responsive
+image: https://s3-eu-west-1.amazonaws.com/eskimo/checkout-shortlist.jpg
 ---
 
 Some of my work is being acknowledged at the minute, I was the designer on a responsive checkout that has been shortlisted for the <a href="https://techecommawards.retail-week.com/shortlist-2016" target="_blank">digital customer experience of the year 2016</a>.

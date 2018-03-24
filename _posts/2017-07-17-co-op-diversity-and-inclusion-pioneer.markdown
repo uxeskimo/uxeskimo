@@ -5,6 +5,7 @@ excerpt_separator: <!--more-->
 title:  "Leading diversity - the Co-op"
 date:   2017-07-17
 categories: blog Diversity
+image: https://s3-eu-west-1.amazonaws.com/eskimo/diverse-team.jpg
 ---
 
 I was in the process of finishing off a blog on a different subject at the weekend but then I got some good news about a thing that’s close to my heart; that news is why I write this post.

@@ -1,10 +1,11 @@
 ---
 layout: post
-body-page-class: blue angel-square
+body-page-class: yellow angel-square
 excerpt_separator: <!--more-->
 title:  "Head in the clouds"
 date:   2015-11-03
 categories: blog Co-op
+image: https://s3-eu-west-1.amazonaws.com/eskimo/whiteboard-hero.jpg
 ---
 Have you ever heard someone say “you’ve got your head in the clouds”?  Well that was me – literally – yesterday.
 <!--more-->
