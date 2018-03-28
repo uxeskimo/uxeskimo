@@ -20,7 +20,10 @@ Blog post
   color:$white;
 }
 .intro-post {
-  padding: 100px 0;
+  padding: 36px 0;
+  @include media(medium) {
+    padding: 100px 0;
+  }
   @include media(large) {
   padding: 225px 0;
   }
@@ -51,10 +54,14 @@ Blog post
   p {
     line-height: 1.8;
     font-size: 18px;
-    @include media(medium) {
-      font-size: 20px;
+    &:first-of-type {
+      font-weight: $headline;
+      font-size: 22px;
+      @include media(medium) {
+        font-size: 27px;
+      }
     }
-    &:first-of-type, &:last-of-type {
+     &:last-of-type {
       font-weight: $headline;
     }
   }
@@ -87,6 +94,7 @@ Blog post
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: 80% 0;
   min-height: 241px;
   max-height: 241px;
   @include media(large) {
@@ -95,71 +103,62 @@ Blog post
   }
 }
 
+.post .blog-post {
+  @include media(large) {
+    padding: 30px;
+  }
+}
+
 .code-club {
   .blog-hero {
       background-image: url("https://s3-eu-west-1.amazonaws.com/eskimo/sale-waterside.jpg");
-      background-position: 80% 0;
   }
 }
 
 .diversity {
   .blog-hero {
       background-image: url("https://s3-eu-west-1.amazonaws.com/eskimo/diversity-in-the-walking-dead.jpg");
-      background-position: 80% 0;
   }
 }
 
 .checkout {
   .blog-hero {
       background-image: url("https://s3-eu-west-1.amazonaws.com/eskimo/checkout-shortlist.jpg");
-      background-position: 80% 0;
   }
 }
 
 .running {
   .blog-hero {
       background-image: url("http://s3-eu-west-1.amazonaws.com/eskimo/trimpell-run.jpg");
-      background-position: 80% 0;
   }
 }
 
 .jekyll {
   .blog-hero {
       background-image: url("http://s3-eu-west-1.amazonaws.com/eskimo/jekyll-hyde.jpg");
-      background-position: 80% 0;
    }
 }
 
 .angel-square  {
   .blog-hero {
       background-image: url("https://s3-eu-west-1.amazonaws.com/eskimo/whiteboard-hero.jpg");
-      background-position: 80% 0;
    }
 }
 
 .pioneer {
   .blog-hero {
       background-image: url("https://s3-eu-west-1.amazonaws.com/eskimo/diverse-team.jpg");
-        @include media(large) {
-            background-position: 80% 0;
-        }
    }
 }
 .communication {
   .blog-hero {
       background-image: url("https://s3-eu-west-1.amazonaws.com/eskimo/design-communication.jpg");
-        @include media(large) {
-            background-position: 80% 0;
-        }
    }
 }
 
 .service-design {
   .blog-hero {
       background-image: url("https://s3-eu-west-1.amazonaws.com/eskimo/discovery.jpg");
-        @include media(large) {
-            background-position: 80% 0;
-        }
    }
 }
 
